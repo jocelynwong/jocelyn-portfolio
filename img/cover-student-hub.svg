@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="744px" viewBox="0 0 1440 744" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="744"></rect>
+        <path d="M48,0 L186,0 C212.509668,-4.86974701e-15 234,21.490332 234,48 L234,292 L0,292 L0,48 C-3.24649801e-15,21.490332 21.490332,4.86974701e-15 48,0 Z" id="path-3"></path>
+        <path d="M36,0 L36,0 C55.882251,-3.65231026e-15 72,16.117749 72,36 L72,152 L0,152 L0,36 C-2.4348735e-15,16.117749 16.117749,3.65231026e-15 36,0 Z" id="path-5"></path>
+        <path d="M36,0 L36,0 C55.882251,-3.65231026e-15 72,16.117749 72,36 L72,152 L0,152 L0,36 C-2.4348735e-15,16.117749 16.117749,3.65231026e-15 36,0 Z" id="path-7"></path>
+    </defs>
+    <g id="Projects" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Student-Hub" transform="translate(0.000000, -360.000000)">
+            <g id="Group-15" transform="translate(0.000000, 360.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle-3" fill="#1D6675" xlink:href="#path-1"></use>
+                <g id="Group-17" mask="url(#mask-2)">
+                    <g transform="translate(1027.000000, 335.000000)">
+                        <path d="M118,0 L118,0 C137.882251,-3.65231026e-15 154,16.117749 154,36 L154,152 L82,152 L82,36 C82,16.117749 98.117749,3.65231026e-15 118,0 Z" id="Rectangle" stroke="none" fill="#092A32" fill-rule="evenodd"></path>
+                        <g id="Group-20" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 122.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Rectangle" fill="#399CB0" xlink:href="#path-3"></use>
+                            <path d="M180.5,77 L180.5,292" id="Path-7" stroke="#144D59" stroke-width="3" mask="url(#mask-4)"></path>
+                            <path d="M99.5,19 L99.5,74" id="Path-13" stroke="#58C2D7" stroke-width="3" mask="url(#mask-4)"></path>
+                            <circle id="Oval" fill="#58C2D7" mask="url(#mask-4)" cx="85" cy="42" r="3"></circle>
+                            <circle id="Oval-Copy-3" fill="#58C2D7" mask="url(#mask-4)" cx="85" cy="58" r="3"></circle>
+                        </g>
+                        <polygon id="Path-4" stroke="none" fill="#092A32" fill-rule="evenodd" points="86 30 67 66 86 66"></polygon>
+                        <path d="M82,0 L154,0 L154,1 C154,20.882251 137.882251,37 118,37 L118,37 C98.117749,37 82,20.882251 82,1 L82,0 Z" id="Rectangle-Copy-5" stroke="none" fill="#FFC977" fill-rule="evenodd" transform="translate(118.000000, 18.500000) rotate(-180.000000) translate(-118.000000, -18.500000) "></path>
+                        <path d="M154,38 L63,38" id="Path-6" stroke="#FFC977" stroke-width="3" fill="none"></path>
+                        <polygon id="Path-14" stroke="none" fill="#092A32" fill-rule="evenodd" points="82 121 82 153 154 122"></polygon>
+                    </g>
+                </g>
+                <g id="Group-17-Copy-2" mask="url(#mask-2)">
+                    <g transform="translate(745.000000, 417.000000)">
+                        <path d="M117,0 L117,0 C151.373409,-6.31429285e-15 180.462491,25.3915992 185.106792,59.4498101 L201,176 L33,176 L48.8932077,59.4498101 C53.5375092,25.3915992 82.6265907,6.31429285e-15 117,0 Z" id="Rectangle-Copy-6" stroke="none" fill="#092A32" fill-rule="evenodd"></path>
+                        <path d="M117,24 L117,24 C136.882251,24 153,40.117749 153,60 L153,176 L81,176 L81,60 C81,40.117749 97.117749,24 117,24 Z" id="Rectangle" stroke="none" fill="#399CB0" fill-rule="evenodd"></path>
+                        <path d="M48,146 L186,146 C212.509668,146 234,167.490332 234,194 L234,366 L0,366 L0,194 C-3.24649801e-15,167.490332 21.490332,146 48,146 Z" id="Rectangle" stroke="none" fill="#399CB0" fill-rule="evenodd"></path>
+                        <rect id="Rectangle" stroke="none" fill="#092A32" fill-rule="evenodd" x="57" y="308" width="120" height="43"></rect>
+                        <rect id="Rectangle" stroke="none" fill="#FFFFFF" fill-rule="evenodd" x="56" y="146" width="123" height="164"></rect>
+                        <polygon id="Rectangle" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="43 219 56 146 56 310 43 310"></polygon>
+                        <polygon id="Rectangle-Copy-7" stroke="none" fill="#FFFFFF" fill-rule="evenodd" transform="translate(185.500000, 228.000000) scale(-1, 1) translate(-185.500000, -228.000000) " points="179 219 192 146 192 310 179 310"></polygon>
+                        <path d="M56,195 L179,195" id="Path-8" stroke="#144D59" stroke-width="3" fill="none"></path>
+                        <path d="M56,171 L179,171" id="Path-8-Copy-5" stroke="#144D59" stroke-width="3" fill="none"></path>
+                        <polygon id="Path-16" stroke="none" fill="#399CB0" fill-rule="evenodd" points="82 146 118 180 153 146"></polygon>
+                        <path d="M56,219 L179,219" id="Path-8-Copy" stroke="#144D59" stroke-width="3" fill="none"></path>
+                        <path d="M56,243 L179,243" id="Path-8-Copy-2" stroke="#144D59" stroke-width="3" fill="none"></path>
+                        <path d="M56,267 L179,267" id="Path-8-Copy-3" stroke="#144D59" stroke-width="3" fill="none"></path>
+                        <path d="M56,291 L179,291" id="Path-8-Copy-4" stroke="#144D59" stroke-width="3" fill="none"></path>
+                        <polyline id="Path-9" stroke="#144D59" stroke-width="3" fill="none" points="110 53 100 78 113 78"></polyline>
+                    </g>
+                </g>
+                <g id="Group-17-Copy-4" mask="url(#mask-2)">
+                    <g transform="translate(180.000000, 403.000000)">
+                        <circle id="Oval-Copy" stroke="none" fill="#FFFFFF" fill-rule="evenodd" cx="77.5" cy="23.5" r="23.5"></circle>
+                        <g id="Group-19" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(82.000000, 14.000000)">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <use id="Rectangle" fill="#399CB0" xlink:href="#path-5"></use>
+                            <path d="M36,-9.23705556e-14 L42.6738281,-9.23705556e-14 C58.8702256,-9.53457856e-14 72,13.1297744 72,29.3261719 L0,79 L-7.10542736e-15,36 C-9.54030086e-15,16.117749 16.117749,-8.87182454e-14 36,-9.23705556e-14 Z" id="Rectangle" fill="#FFFFFF" mask="url(#mask-6)"></path>
+                        </g>
+                        <path d="M145,59 L154,59 C157.865993,59 161,62.1340068 161,66 L161,66 C161,69.8659932 157.865993,73 154,73 L145,73 L145,59 Z" id="Rectangle" stroke="none" fill="#399CB0" fill-rule="evenodd"></path>
+                        <path d="M49,136 L187,136 C213.509668,136 235,157.490332 235,184 L235,356 L1,356 L1,184 C1,157.490332 22.490332,136 49,136 Z" id="Rectangle" stroke="none" fill="#399CB0" fill-rule="evenodd"></path>
+                        <rect id="Rectangle" stroke="none" fill="#092A32" fill-rule="evenodd" x="60" y="166" width="139" height="175"></rect>
+                        <path d="M50,136 L82,136 L82,341 L0,341 L7.10542736e-15,186 C3.7236586e-15,158.385763 22.3857625,136 50,136 Z" id="Rectangle" stroke="none" fill="#FFC977" fill-rule="evenodd"></path>
+                        <path d="M202,136 L235,136 L235,341 L154,341 L154,184 C154,157.490332 175.490332,136 202,136 Z" id="Rectangle-Copy-9" stroke="none" fill="#FFC977" fill-rule="evenodd" transform="translate(194.500000, 238.500000) scale(-1, 1) translate(-194.500000, -238.500000) "></path>
+                        <path d="M61.5,197 L61.5,412" id="Path-7" stroke="#144D59" stroke-width="3" fill="none"></path>
+                    </g>
+                </g>
+                <g id="Group-17-Copy-3" mask="url(#mask-2)">
+                    <g transform="translate(463.000000, 331.000000)">
+                        <rect id="Rectangle" stroke="none" fill="#399CB0" fill-rule="evenodd" transform="translate(106.000000, 90.000000) rotate(-135.000000) translate(-106.000000, -90.000000) " x="50" y="20" width="112" height="140" rx="56"></rect>
+                        <g id="Rectangle-7" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(81.000000, 63.000000)">
+                            <mask id="mask-8" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <use id="Rectangle" fill="#FFC977" xlink:href="#path-7"></use>
+                            <polygon id="Path-10" fill="#58C2D7" mask="url(#mask-8)" points="59 4 -6 36 4 -1 56 -8"></polygon>
+                        </g>
+                        <path d="M48,185 L186,185 C212.509668,185 234,206.490332 234,233 L234,413 L0,413 L0,233 C-3.24649801e-15,206.490332 21.490332,185 48,185 Z" id="Rectangle" stroke="none" fill="#092A32" fill-rule="evenodd"></path>
+                        <polygon id="Path-14" stroke="none" fill="#FFC977" fill-rule="evenodd" transform="translate(117.000000, 200.000000) scale(-1, 1) translate(-117.000000, -200.000000) " points="81 184 81 216 153 185"></polygon>
+                        <polygon id="Rectangle" stroke="none" fill="#FFC977" fill-rule="evenodd" points="20 319 117 351 117 413 20 413"></polygon>
+                        <polygon id="Rectangle-Copy-8" stroke="none" fill="#FFC977" fill-rule="evenodd" transform="translate(165.500000, 366.000000) scale(-1, 1) translate(-165.500000, -366.000000) " points="117 319 214 351 214 413 117 413"></polygon>
+                        <polyline id="Path-5" stroke="#144D59" stroke-width="3" fill="none" points="139 91 140 124 128 124"></polyline>
+                        <path d="M117,350 L117,413" id="Path-11" stroke="#144D59" stroke-width="3" fill="none"></path>
+                        <polyline id="Path-12" stroke="#FFFFFF" stroke-width="3" fill="none" points="34 317 117 345 202 317"></polyline>
+                        <polyline id="Path-12-Copy" stroke="#FFFFFF" stroke-width="3" fill="none" points="40 313 117 338 197 312"></polyline>
+                    </g>
+                </g>
+                <g id="Group-12" mask="url(#mask-2)">
+                    <g transform="translate(250.000000, 154.000000)">
+                        <path d="M81,-8.52651283e-14 L350,-9.9475983e-14 C405.228475,-1.58674029e-13 450,44.771525 450,100 L450,162 L81,162 C36.2649353,162 -2.2943244e-14,125.735065 -2.84217094e-14,81 L-2.84217094e-14,81 C-3.39001748e-14,36.2649353 36.2649353,-7.70474302e-14 81,-8.52651283e-14 Z" id="Rectangle-Copy-3" stroke="none" fill="#399CB0" fill-rule="evenodd" transform="translate(225.000000, 81.000000) scale(-1, 1) translate(-225.000000, -81.000000) "></path>
+                        <path d="M85,69.5 L365,69.5" id="Path-3" stroke="#144D59" stroke-width="4" fill="none"></path>
+                        <path d="M85,45.5 L365,45.5" id="Path-3-Copy-3" stroke="#144D59" stroke-width="4" fill="none"></path>
+                        <path d="M85,93.5 L365,93.5" id="Path-3-Copy" stroke="#144D59" stroke-width="4" fill="none"></path>
+                        <path d="M85,117.5 L293,117.5" id="Path-3-Copy-2" stroke="#144D59" stroke-width="4" fill="none"></path>
+                    </g>
+                </g>
+                <path d="M779.5,286 L911,286 C938.614237,286 961,308.385763 961,336 L961,365 L779.5,365 C757.684752,365 740,347.315248 740,325.5 L740,325.5 C740,303.684752 757.684752,286 779.5,286 Z" id="Rectangle" fill="#092A32" mask="url(#mask-2)"></path>
+                <path d="M518.5,43 L650,43 C677.614237,43 700,65.3857625 700,93 L700,122 L518.5,122 C496.684752,122 479,104.315248 479,82.5 L479,82.5 C479,60.6847524 496.684752,43 518.5,43 Z" id="Rectangle-Copy-10" fill="#58C2D7" mask="url(#mask-2)" transform="translate(589.500000, 82.500000) scale(-1, 1) translate(-589.500000, -82.500000) "></path>
+                <g id="Group-16" mask="url(#mask-2)">
+                    <g transform="translate(740.000000, 84.000000)">
+                        <path d="M81,0 L350,1.42108547e-14 C405.228475,4.06554845e-15 450,44.771525 450,100 L450,162 L81,162 C36.2649353,162 5.47846538e-15,125.735065 0,81 L0,81 C-5.47846538e-15,36.2649353 36.2649353,8.21769808e-15 81,0 Z" id="Rectangle-Copy-4" stroke="none" fill="#FFC977" fill-rule="evenodd"></path>
+                        <path d="M85,69.4022267 L365,69.4022267" id="Path-3" stroke="#144D59" stroke-width="4" fill="none"></path>
+                        <path d="M85,45.4022267 L365,45.4022267" id="Path-3-Copy-4" stroke="#144D59" stroke-width="4" fill="none"></path>
+                        <path d="M85,93.4022267 L365,93.4022267" id="Path-3-Copy" stroke="#144D59" stroke-width="4" fill="none"></path>
+                        <path d="M85,117.402227 L293,117.402227" id="Path-3-Copy-2" stroke="#144D59" stroke-width="4" fill="none"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

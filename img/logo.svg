@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-150.000000, -40.000000)" fill="#3B5AE9" id="Group-2">
+            <g>
+                <g id="Group" transform="translate(150.000000, 40.000000)">
+                    <path d="M4,0 L36,0 C38.209139,-4.05812251e-16 40,1.790861 40,4 L40,36 C40,38.209139 38.209139,40 36,40 L4,40 C1.790861,40 2.705415e-16,38.209139 0,36 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z M25.868,12.176 L14.564,12.176 L14.564,16.568 L20.276,16.568 L20.276,23.192 C20.276,24.152 19.772,24.608 19.004,24.608 C18.164,24.608 16.82,24.032 15.5,22.712 L12.98,26.312 C14.684,28.184 16.82,29.24 19.532,29.24 C23.396,29.24 25.868,27.08 25.868,23.312 L25.868,12.176 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

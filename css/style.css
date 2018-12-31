@@ -34,21 +34,9 @@ ol, ul {
 
 /*General*/
 body {
-  background: #22435D url("../img/bg-home.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   font-family: 'Montserrat', Helvetica, sans-serif;
-  line-height: 2;
-  letter-spacing: 1px;
-	border: 20px solid #fff;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: auto;
+	color: #4a4a4a;
+  line-height: 1.75;
 }
 
 img {
@@ -56,127 +44,154 @@ img {
   height: auto;
 }
 
-hr {
-	border: 2px solid #17FCC0;
-}
-
 /*Typography*/
 h1 {
-  font-size: 3.125rem;
+	font-family: 'Playfair Display', serif;
+	font-size: 3rem;
 }
 h2 {
-  font-size: 1.75rem;
-  font-weight: 400;
+	font-family: 'Playfair Display', serif;
+  font-size: 2rem;
 }
 h3 {
-  font-size: 1.375rem;
-}
-h4 {
+	font-family: 'Montserrat', Helvetica, sans-serif;
   font-size: 1.125rem;
-}
-h5 {
-  font-size: 1.125rem;
-}
-h6 {
-  font-size: 0.875rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 0.25rem;
+	font-weight: 700;
 }
 p {
-  font-size: 1.25rem;
+  font-size: 1rem;
+	padding-bottom: 24px;
+}
+
+/*Grid*/
+.grid-container {
+  display: grid;
+	grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.six-col {
+	grid-column: span 6;
+}
+
+.seven-col {
+	grid-column: span 7;
+}
+
+.eight-col-center {
+	grid-column: 3 / span 8;
+}
+
+.twelve-col-center {
+	grid-column: span 12;
 }
 
 /*Lists*/
-ul li {
-	display: inline-block;
-	padding: 0 12px 0 12px;
-}
 
 /*Buttons and Links*/
 a {
-  color: #17FCC0;
+	color: #4a4a4a;
   display: inline-block;
   text-decoration: none;
   font-family: 'Montserrat', Helvetica, sans-serif;
   font-size: inherit;
   font-weight: inherit;
-	box-shadow: inset 0 0 0 0 #17FCC0;
+	box-shadow: inset 0 0 0 0 #e1e6ff;
 	-webkit-transition: all ease 0.8s;
 	-moz-transition: all ease 0.8s;
 	transition: all ease 0.8s;
 }
-a:hover {
-	box-shadow: inset 200px 0 0 0 #17FCC0;
-	color: #3B5AE9;
+
+.bdr-btm-1 {
+	border-bottom: 1px solid #3b5ae9;
+	padding-bottom: 1px;
 }
 
-/*Other*/
+.bdr-btm-1:hover {
+	box-shadow: inset 220px 0 0 0 #e1e6ff;
+	color: #4a4a4a;
+}
 
-.content {
-  color: #FFF;
+/*Homepage*/
+nav {
+	padding: 40px 0 40px 0;
+	grid-column: span 12;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 24px 0 0;
+	display: grid;
+}
+
+nav li {
+	
+}
+
+.header {
+	background-color: #f0f7ff;
+	margin-bottom: 72px;
+}
+
+.intro {
+	padding: 48px 0 128px 0;
+}
+
+.project {
+	grid-column: span 12;
+	padding-bottom: 48px;
+}
+
+/*Project Page*/
+.intro-title {
+	padding: 72px 0 72px 0;
+}
+
+section {
+	padding-bottom: 48px;
+}
+
+section img {
+	padding-bottom: 24px;
+	display: block;
   margin: 0 auto;
-	max-width: 640px;
-  text-align: center;
-	position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-.line {
-	background: #17FCC0;
-	height: 2px;
-	length: 20px;
-	margin: 0 auto;
-}
-.contact-nav {
-	padding-top: 40px;
-	font-weight: 300;
 }
 
-@media only screen and (max-width : 750px) and (min-width: 321px) {
-	body {
-		border: none;
-	}
-	h2 {
-	  font-size: 1.375rem;
-	  font-weight: 400;
-	}
-	ul li {
-		display: block;
-		padding-bottom: 10px;
-	}
-	.hide {
-		display: none;
-	}
-	.content {
-	  padding: 40px;
-	}
+.remove-padding {
+	padding-bottom: 0px;
+}
+
+/*About Page*/
+.work-history {
+	grid-column: 9 / span 3;
+}
+
+@media only screen and (max-width : 1139px) and (min-width: 321px) {
+	.grid-container {
+		margin: 0 24px 0 24px;
+		}
+
+		.six-col {
+			grid-column: span 12;
+		}
+
+		.eight-col-center {
+			grid-column: span 12;
+		}
 }
 
 @media only screen and (max-width : 320px) {
-	/*iPhone 5 size*/
-	body {
-		border: none;
-	}
-	h2 {
-	  font-size: 1.125rem;
-	  font-weight: 400;
-	}
-	ul li {
-		display: block;
-		font-size: 0.875rem;
-		padding-bottom: 6px;
-	}
-	.hide {
-		display: none;
-	}
-	.content {
-	  padding: 20px;
-	}
-	.contact-nav {
-		padding-top: 20px;
-		font-weight: 300;
-	}
+	.grid-container {
+		margin: 0 16px 0 16px;
+		}
+
+		.six-col {
+			grid-column: span 12;
+		}
+
+		.eight-col-center {
+			grid-column: span 12;
+		}
 }
