@@ -123,11 +123,11 @@ nav {
 nav ul li {
 	display: inline-block;
 	padding: 0 24px 0 0;
-	display: grid;
+	/* display: grid; */
 }
 
-nav li {
-	
+.nav-right {
+	float: right;
 }
 
 .header {
