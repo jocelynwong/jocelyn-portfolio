@@ -12,21 +12,21 @@ img {
 /*Typography*/
 h1 {
 	font-family: 'Playfair Display', serif;
-	font-size: 3rem;
-	line-height: 1;
+	font-size: 2.5rem;
+	line-height: 1.5;
 }
 
 h2 {
 	font-family: 'Playfair Display', serif;
-  font-size: 2rem;
-	line-height: 1;
+  font-size: 1.5rem;
+	line-height: 1.5;
 }
 
 h3 {
 	font-family: 'Montserrat', Helvetica, sans-serif;
   font-size: 1.125rem;
 	font-weight: 700;
-	line-height: 1;
+	line-height: 1.5;
 }
 
 p {
@@ -41,19 +41,7 @@ p {
 	grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
 	max-width: 1140px;
-	margin: 0 auto;
-}
-
-.six-col {
-	grid-column: span 6;
-}
-
-.eight-col-center {
-	grid-column: 3 / span 8;
-}
-
-.twelve-col-center {
-	grid-column: span 12;
+	margin: 0 16px 0 16px;
 }
 
 /*Buttons and Links*/
@@ -95,31 +83,48 @@ nav ul li {
 /*Homepage*/
 header {
 	background-color: #f0f7ff;
-	margin-bottom: 72px;
+	margin-bottom: 24px;
 }
 
 .intro {
-	padding: 48px 0 128px 0;
+	padding: 24px 0 64px 0;
+	grid-column: span 12;
 }
 
 .project {
 	grid-column: span 12;
-	padding-bottom: 48px;
+	padding-bottom: 24px;
+}
+
+.project p {
+	padding-bottom: 8px;
 }
 
 /*Project Page*/
 .intro-title {
-	padding: 72px 0 72px 0;
+	padding: 32px 0 32px 0;
 }
 
 section {
-	padding-bottom: 48px;
+	padding-bottom: 24px;
 }
 
-section img {
+section img, video {
 	padding-bottom: 24px;
 	display: block;
   margin: 0 auto;
+}
+
+.proj-text {
+	grid-column: span 12;
+}
+
+.proj-img {
+	grid-column: span 12;
+}
+
+.sh-experiment {
+	grid-column: span 12;
 }
 
 .remove-padding {
@@ -127,38 +132,97 @@ section img {
 }
 
 /*About Page*/
+.about-img {
+	grid-column: span 12
+}
+
 .about-text {
-	grid-column: span 7;
+	grid-column: span 12;
 }
 
 .work-history {
-	grid-column: 9 / span 3;
+	grid-column: span 12;
 }
 
-@media only screen and (max-width : 1139px) and (min-width: 376px) {
+@media only screen and (min-width: 1024px) {
+	/*Typography*/
+	h1 {
+		font-size: 3rem;
+		line-height: 2;
+	}
+
+	h2 {
+		font-size: 2rem;
+		line-height: 2;
+	}
+
+	h3 {
+		font-size: 1.125rem;
+		font-weight: 700;
+		line-height: 2;
+	}
+
+	/*Grid*/
 	.grid-container {
 		margin: 0 24px 0 24px;
 	}
 
-	.six-col {
+	/*Homepage*/
+	header {
+		background-color: #f0f7ff;
+		margin-bottom: 72px;
+	}
+
+	.intro {
+		padding: 48px 0 128px 0;
 		grid-column: span 12;
 	}
 
+	.project {
+		grid-column: span 12;
+		padding-bottom: 48px;
+	}
+
+	.project p {
+		padding-bottom: 24px;
+	}
+
+	/*Project Page*/
+	.intro-title {
+		padding: 72px 0 72px 0;
+	}
+
+	section {
+		padding-bottom: 48px;
+	}
+
+	section img, video {
+		padding-bottom: 24px;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.proj-text {
+		grid-column: 3 / span 8;
+	}
+
+	.sh-experiment {
+		grid-column: span 6;
+	}
+
+	/*About Page*/
 	.about-text {
-		grid-column: span 12;
-	}
-
-	.eight-col-center {
-		grid-column: span 12;
+		grid-column: span 7;
 	}
 
 	.work-history {
-		grid-column: span 12;
+		grid-column: 9 / span 3;
 	}
 }
 
-@media only screen and (max-width : 375px) {
+@media only screen and (min-width : 1140px) {
+	/*Grid*/
 	.grid-container {
-		margin: 0 16px 0 16px;
-		}
+		margin: 0 auto;
+	}
 }
