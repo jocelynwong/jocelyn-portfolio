@@ -5,6 +5,9 @@
     <desc>Created with Sketch.</desc>
     <defs>
         <rect id="path-1" x="0" y="0" width="1440" height="744"></rect>
+        <path d="M40,77 C60.4345357,77 77,60.4345357 77,40 C77,19.5654643 60.4345357,3 40,3 C19.5654643,3 3,19.5654643 3,40 C3,60.4345357 19.5654643,77 40,77 Z M40,80 C17.90861,80 0,62.09139 0,40 C0,17.90861 17.90861,0 40,0 C62.09139,0 80,17.90861 80,40 C80,62.09139 62.09139,80 40,80 Z" id="path-3"></path>
+        <path d="M28,53 C41.8071187,53 53,41.8071187 53,28 C53,14.1928813 41.8071187,3 28,3 C14.1928813,3 3,14.1928813 3,28 C3,41.8071187 14.1928813,53 28,53 Z M28,56 C12.536027,56 0,43.463973 0,28 C0,12.536027 12.536027,0 28,0 C43.463973,0 56,12.536027 56,28 C56,43.463973 43.463973,56 28,56 Z" id="path-5"></path>
+        <path d="M16,29 C23.1797017,29 29,23.1797017 29,16 C29,8.82029825 23.1797017,3 16,3 C8.82029825,3 3,8.82029825 3,16 C3,23.1797017 8.82029825,29 16,29 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z" id="path-7"></path>
     </defs>
     <g id="Projects" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Veritas-Modal" transform="translate(0.000000, -360.000000)">
@@ -13,28 +16,37 @@
                     <use xlink:href="#path-1"></use>
                 </mask>
                 <use id="Rectangle-3" fill="#782378" xlink:href="#path-1"></use>
-                <g id="Group-26" mask="url(#mask-2)" stroke-width="3">
+                <g id="Group-26" mask="url(#mask-2)">
                     <g transform="translate(454.000000, 56.000000)">
-                        <circle id="Oval" stroke="#8A278A" cx="40" cy="40" r="38.5"></circle>
-                        <path d="M39.3835155,1.50483585 C18.4048617,1.83416878 1.5,18.9429134 1.5,40 C1.5,61.2629629 18.7370371,78.5 40,78.5 C61.0570866,78.5 78.1658312,61.5951383 78.4951641,40.6164845 L39.3835155,1.50483585 Z" id="Path" stroke="#B73BB7"></path>
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Oval" stroke="none" fill="#8A278A" fill-rule="nonzero" xlink:href="#path-3"></use>
+                        <rect id="Rectangle" stroke="none" fill="#C247C2" fill-rule="evenodd" mask="url(#mask-4)" x="0" y="40" width="40" height="40"></rect>
                     </g>
                 </g>
-                <g id="Group-26-Copy" mask="url(#mask-2)" stroke-width="3">
+                <g id="Group-26-Copy" mask="url(#mask-2)">
                     <g transform="translate(558.000000, 80.000000)">
-                        <circle id="Oval" stroke="#8A278A" cx="28" cy="28" r="26.5"></circle>
-                        <path d="M27.3856655,1.5069808 C13.0338805,1.83345436 1.5,13.5697861 1.5,28 C1.5,42.6355459 13.3644541,54.5 28,54.5 C42.4302139,54.5 54.1665456,42.9661195 54.4930192,28.6143345 L27.3856606,1.50698091 Z" id="Path" stroke="#B73BB7"></path>
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <use id="Oval" stroke="none" fill="#8A278A" fill-rule="nonzero" xlink:href="#path-5"></use>
+                        <rect id="Rectangle" stroke="none" fill="#C247C2" fill-rule="evenodd" mask="url(#mask-6)" x="0" y="28" width="28" height="28"></rect>
                     </g>
                 </g>
-                <g id="Group-26-Copy-2" mask="url(#mask-2)" stroke-width="3">
+                <g id="Group-26-Copy-2" mask="url(#mask-2)">
                     <g transform="translate(638.000000, 104.000000)">
-                        <circle id="Oval" stroke="#8A278A" cx="16" cy="16" r="14.5"></circle>
-                        <path d="M15.3912277,1.51254807 C7.66543757,1.83162696 1.5,8.19580593 1.5,16 C1.5,24.0081289 7.99187113,30.5 16,30.5 C23.8041941,30.5 30.168373,24.3345624 30.4874519,16.6087723 L15.3912277,1.51254807 Z" id="Path" stroke="#B73BB7"></path>
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <use id="Oval" stroke="none" fill="#8A278A" fill-rule="nonzero" xlink:href="#path-7"></use>
+                        <rect id="Rectangle" stroke="none" fill="#C247C2" fill-rule="evenodd" mask="url(#mask-8)" x="0" y="16" width="16" height="16"></rect>
                     </g>
                 </g>
                 <g id="Group-24" mask="url(#mask-2)">
                     <g transform="translate(48.000000, 108.000000)" id="Group-25">
                         <g>
-                            <path d="M0,16 L358,16" id="Path-20" stroke="#9D339D" stroke-width="3"></path>
+                            <polygon id="Path-20" fill="#9D339D" fill-rule="nonzero" points="0 17.5 0 14.5 358 14.5 358 17.5"></polygon>
                             <circle id="Oval" fill="#9D339D" cx="116" cy="16" r="16"></circle>
                             <circle id="Oval-Copy-8" fill="#782378" cx="116" cy="16" r="6"></circle>
                         </g>
@@ -47,8 +59,8 @@
                 <rect id="Rectangle-Copy-10" fill="#9D339D" mask="url(#mask-2)" x="262" y="-10" width="144" height="90"></rect>
                 <rect id="Rectangle-Copy-9" fill="#9D339D" mask="url(#mask-2)" x="718" y="-56" width="268" height="72"></rect>
                 <rect id="Rectangle" fill="#9D339D" mask="url(#mask-2)" x="240" y="184" width="166" height="72"></rect>
-                <rect id="Rectangle-Copy" stroke="#9D339D" stroke-width="3" mask="url(#mask-2)" x="-17.5" y="185.5" width="232" height="69"></rect>
-                <rect id="Rectangle-Copy-2" stroke="#9D339D" stroke-width="3" mask="url(#mask-2)" x="1035.5" y="488.5" width="355" height="69"></rect>
+                <path d="M-16,187 L-16,253 L213,253 L213,187 L-16,187 Z M-19,184 L216,184 L216,256 L-19,256 L-19,184 Z" id="Rectangle-Copy" fill="#9D339D" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                <path d="M1037,490 L1037,556 L1389,556 L1389,490 L1037,490 Z M1034,487 L1392,487 L1392,559 L1034,559 L1034,487 Z" id="Rectangle-Copy-2" fill="#9D339D" fill-rule="nonzero" mask="url(#mask-2)"></path>
                 <g id="Group-20" mask="url(#mask-2)" stroke="#9D339D" stroke-width="3">
                     <g transform="translate(1034.000000, 391.000000)">
                         <rect id="Rectangle" x="1.5" y="1.5" width="45" height="45"></rect>
@@ -61,58 +73,58 @@
                     </g>
                 </g>
                 <rect id="Rectangle" stroke="#9D339D" stroke-width="3" mask="url(#mask-2)" x="1035.5" y="248.5" width="45" height="45"></rect>
-                <path d="M1106,263.5 L1464,263.5" id="Path-20" stroke="#9D339D" stroke-width="3" mask="url(#mask-2)"></path>
-                <path d="M1106,279.5 L1464,279.5" id="Path-20-Copy-4" stroke="#9D339D" stroke-width="3" mask="url(#mask-2)"></path>
-                <path d="M1106,407.5 L1464,407.5" id="Path-20-Copy-3" stroke="#9D339D" stroke-width="3" mask="url(#mask-2)"></path>
-                <path d="M1106,423.5 L1464,423.5" id="Path-20-Copy-6" stroke="#9D339D" stroke-width="3" mask="url(#mask-2)"></path>
-                <path d="M1106,335.5 L1464,335.5" id="Path-20-Copy-2" stroke="#9D339D" stroke-width="3" mask="url(#mask-2)"></path>
-                <path d="M1106,351.5 L1464,351.5" id="Path-20-Copy-5" stroke="#9D339D" stroke-width="3" mask="url(#mask-2)"></path>
+                <polygon id="Path-20" fill="#9D339D" fill-rule="nonzero" mask="url(#mask-2)" points="1106 265 1106 262 1464 262 1464 265"></polygon>
+                <polygon id="Path-20-Copy-4" fill="#9D339D" fill-rule="nonzero" mask="url(#mask-2)" points="1106 281 1106 278 1464 278 1464 281"></polygon>
+                <polygon id="Path-20-Copy-3" fill="#9D339D" fill-rule="nonzero" mask="url(#mask-2)" points="1106 409 1106 406 1464 406 1464 409"></polygon>
+                <polygon id="Path-20-Copy-6" fill="#9D339D" fill-rule="nonzero" mask="url(#mask-2)" points="1106 425 1106 422 1464 422 1464 425"></polygon>
+                <polygon id="Path-20-Copy-2" fill="#9D339D" fill-rule="nonzero" mask="url(#mask-2)" points="1106 337 1106 334 1464 334 1464 337"></polygon>
+                <polygon id="Path-20-Copy-5" fill="#9D339D" fill-rule="nonzero" mask="url(#mask-2)" points="1106 353 1106 350 1464 350 1464 353"></polygon>
                 <rect id="Rectangle-Copy-3" fill="#9D339D" mask="url(#mask-2)" x="1034" y="556" width="358" height="187"></rect>
                 <rect id="Rectangle-Copy-7" fill="#9D339D" mask="url(#mask-2)" x="1034" y="-1" width="358" height="200"></rect>
                 <rect id="Rectangle-Copy-8" fill="#9D339D" mask="url(#mask-2)" x="114" y="40" width="100" height="40"></rect>
                 <rect id="Rectangle" fill="#9D339D" mask="url(#mask-2)" transform="translate(164.000000, 70.000000) rotate(-45.000000) translate(-164.000000, -70.000000) " x="148" y="54" width="32" height="32"></rect>
                 <rect id="Rectangle" fill="#9D339D" mask="url(#mask-2)" transform="translate(1386.000000, 99.000000) rotate(-45.000000) translate(-1386.000000, -99.000000) " x="1370" y="83" width="32" height="32"></rect>
                 <rect id="Rectangle-Copy-6" fill="#9D339D" mask="url(#mask-2)" x="454" y="680" width="362" height="187"></rect>
-                <g id="Group-25" mask="url(#mask-2)">
+                <g id="Group-25" mask="url(#mask-2)" fill="#9D339D">
                     <g transform="translate(454.000000, 608.000000)">
-                        <path d="M0.5,24 L0.5,-1.95399252e-13" id="Path-19" stroke="#9D339D" stroke-width="3" fill="none"></path>
-                        <path d="M361.5,24 L361.5,-1.95399252e-13" id="Path-19-Copy" stroke="#9D339D" stroke-width="3" fill="none"></path>
-                        <path d="M1,12 L153,12" id="Path-20" stroke="#9D339D" stroke-width="3" fill="none"></path>
-                        <path d="M210,12 L362,12" id="Path-20-Copy" stroke="#9D339D" stroke-width="3" fill="none"></path>
-                        <rect id="Rectangle" stroke="none" fill="#9D339D" fill-rule="evenodd" x="162" y="4" width="39" height="16" rx="8"></rect>
+                        <polygon id="Path-19" fill-rule="nonzero" points="2 24 -1 24 -1 -1.95399252e-13 2 -1.95399252e-13"></polygon>
+                        <polygon id="Path-19-Copy" fill-rule="nonzero" points="363 24 360 24 360 -1.95399252e-13 363 -1.95399252e-13"></polygon>
+                        <polygon id="Path-20" fill-rule="nonzero" points="1 13.5 1 10.5 153 10.5 153 13.5"></polygon>
+                        <polygon id="Path-20-Copy" fill-rule="nonzero" points="210 13.5 210 10.5 362 10.5 362 13.5"></polygon>
+                        <rect id="Rectangle" fill-rule="evenodd" x="162" y="4" width="39" height="16" rx="8"></rect>
                     </g>
                 </g>
                 <g id="Group-21" mask="url(#mask-2)">
                     <g transform="translate(-62.000000, 302.000000)">
-                        <rect id="Rectangle-Copy-5" stroke="none" fill="#9D339D" fill-rule="evenodd" x="0" y="2" width="468" height="472"></rect>
-                        <rect id="Rectangle" stroke="none" fill="#B73BB7" fill-rule="evenodd" x="50" y="2" width="418" height="72"></rect>
-                        <path d="M470,74 L36,74" id="Path-5" stroke="#782378" stroke-width="3" fill="none"></path>
-                        <path d="M470,146 L36,146" id="Path-5-Copy" stroke="#782378" stroke-width="3" fill="none"></path>
-                        <path d="M470,218 L36,218" id="Path-5-Copy-2" stroke="#782378" stroke-width="3" fill="none"></path>
-                        <path d="M470,290 L36,290" id="Path-5-Copy-3" stroke="#782378" stroke-width="3" fill="none"></path>
-                        <path d="M470,354 L36,354" id="Path-5-Copy-4" stroke="#782378" stroke-width="3" fill="none"></path>
-                        <path d="M470,426 L36,426" id="Path-5-Copy-5" stroke="#782378" stroke-width="3" fill="none"></path>
-                        <path d="M280,0 L280,430" id="Path-6" stroke="#782378" stroke-width="3" fill="none"></path>
-                        <path d="M92,0 L92,430" id="Path-6-Copy" stroke="#782378" stroke-width="3" fill="none"></path>
+                        <rect id="Rectangle-Copy-5" fill="#9D339D" fill-rule="evenodd" x="0" y="2" width="468" height="472"></rect>
+                        <rect id="Rectangle" fill="#B73BB7" fill-rule="evenodd" x="50" y="2" width="418" height="72"></rect>
+                        <polygon id="Path-5" fill="#782378" fill-rule="nonzero" points="470 72.5 470 75.5 36 75.5 36 72.5"></polygon>
+                        <polygon id="Path-5-Copy" fill="#782378" fill-rule="nonzero" points="470 144.5 470 147.5 36 147.5 36 144.5"></polygon>
+                        <polygon id="Path-5-Copy-2" fill="#782378" fill-rule="nonzero" points="470 216.5 470 219.5 36 219.5 36 216.5"></polygon>
+                        <polygon id="Path-5-Copy-3" fill="#782378" fill-rule="nonzero" points="470 288.5 470 291.5 36 291.5 36 288.5"></polygon>
+                        <polygon id="Path-5-Copy-4" fill="#782378" fill-rule="nonzero" points="470 352.5 470 355.5 36 355.5 36 352.5"></polygon>
+                        <polygon id="Path-5-Copy-5" fill="#782378" fill-rule="nonzero" points="470 424.5 470 427.5 36 427.5 36 424.5"></polygon>
+                        <polygon id="Path-6" fill="#782378" fill-rule="nonzero" points="278.5 0 281.5 0 281.5 454 278.5 454"></polygon>
+                        <polygon id="Path-6-Copy" fill="#782378" fill-rule="nonzero" points="90.5 9.9145498e-17 93.5 -9.9145498e-17 93.5 454 90.5 454"></polygon>
                     </g>
                 </g>
-                <rect id="Rectangle" stroke="#9D339D" stroke-width="3" mask="url(#mask-2)" x="865.5" y="609.5" width="119" height="61" rx="30.5"></rect>
+                <path d="M896,611 C879.983742,611 867,623.983742 867,640 C867,656.016258 879.983742,669 896,669 L954,669 C970.016258,669 983,656.016258 983,640 C983,623.983742 970.016258,611 954,611 L896,611 Z M896,608 L954,608 C971.673112,608 986,622.326888 986,640 C986,657.673112 971.673112,672 954,672 L896,672 C878.326888,672 864,657.673112 864,640 C864,622.326888 878.326888,608 896,608 Z" id="Rectangle" fill="#9D339D" fill-rule="nonzero" mask="url(#mask-2)"></path>
                 <circle id="Oval" fill="#9D339D" mask="url(#mask-2)" cx="954" cy="640" r="20"></circle>
-                <rect id="Rectangle-Copy-4" stroke="#9D339D" stroke-width="3" mask="url(#mask-2)" x="865.5" y="713.5" width="119" height="61" rx="30.5"></rect>
+                <path d="M896,715 C879.983742,715 867,727.983742 867,744 C867,760.016258 879.983742,773 896,773 L954,773 C970.016258,773 983,760.016258 983,744 C983,727.983742 970.016258,715 954,715 L896,715 Z M896,712 L954,712 C971.673112,712 986,726.326888 986,744 C986,761.673112 971.673112,776 954,776 L896,776 C878.326888,776 864,761.673112 864,744 C864,726.326888 878.326888,712 896,712 Z" id="Rectangle-Copy-4" fill="#9D339D" fill-rule="nonzero" mask="url(#mask-2)"></path>
                 <circle id="Oval-Copy-7" fill="#9D339D" mask="url(#mask-2)" cx="896" cy="744" r="20"></circle>
-                <g id="Group-19" mask="url(#mask-2)" stroke="#782378" stroke-width="4">
+                <g id="Group-19" mask="url(#mask-2)" fill="#782378" fill-rule="nonzero">
                     <g transform="translate(942.000000, 208.000000)">
-                        <path d="M20,0 L0,20" id="Path"></path>
-                        <path d="M20,0 L0,20" id="Path-Copy" transform="translate(10.000000, 10.000000) rotate(-270.000000) translate(-10.000000, -10.000000) "></path>
+                        <polygon id="Path" points="18.5857864 -1.41421356 21.4142136 1.41421356 1.41421356 21.4142136 -1.41421356 18.5857864"></polygon>
+                        <polygon id="Path-Copy" transform="translate(10.000000, 10.000000) rotate(-270.000000) translate(-10.000000, -10.000000) " points="18.5857864 -1.41421356 21.4142136 1.41421356 1.41421356 21.4142136 -1.41421356 18.5857864"></polygon>
                     </g>
                 </g>
-                <polyline id="Path-3" stroke="#9D339D" stroke-width="3" mask="url(#mask-2)" points="1334 517 1348 531 1362 517"></polyline>
-                <path d="M454,488 L987,488" id="Path-7" stroke="#782378" stroke-width="3" mask="url(#mask-2)"></path>
-                <path d="M502,327.5 L938,327.5" id="Path-7-Copy-2" stroke="#782378" stroke-width="3" mask="url(#mask-2)"></path>
-                <path d="M502,295.5 L938,295.5" id="Path-7-Copy-5" stroke="#782378" stroke-width="3" mask="url(#mask-2)"></path>
-                <path d="M502,359.5 L938,359.5" id="Path-7-Copy-3" stroke="#782378" stroke-width="3" mask="url(#mask-2)"></path>
-                <path d="M502,391.5 L768,391.5" id="Path-7-Copy-4" stroke="#782378" stroke-width="3" mask="url(#mask-2)"></path>
-                <path d="M720.5,487 L720.5,563" id="Path-8" stroke="#782378" stroke-width="3" mask="url(#mask-2)"></path>
+                <polygon id="Path-3" fill="#9D339D" fill-rule="nonzero" mask="url(#mask-2)" points="1348 528.87868 1360.93934 515.93934 1363.06066 518.06066 1348 533.12132 1332.93934 518.06066 1335.06066 515.93934"></polygon>
+                <polygon id="Path-7" fill="#782378" fill-rule="nonzero" mask="url(#mask-2)" points="454 489.5 454 486.5 987 486.5 987 489.5"></polygon>
+                <polygon id="Path-7-Copy-2" fill="#782378" fill-rule="nonzero" mask="url(#mask-2)" points="502 329 502 326 938 326 938 329"></polygon>
+                <polygon id="Path-7-Copy-5" fill="#782378" fill-rule="nonzero" mask="url(#mask-2)" points="502 297 502 294 938 294 938 297"></polygon>
+                <polygon id="Path-7-Copy-3" fill="#782378" fill-rule="nonzero" mask="url(#mask-2)" points="502 361 502 358 938 358 938 361"></polygon>
+                <polygon id="Path-7-Copy-4" fill="#782378" fill-rule="nonzero" mask="url(#mask-2)" points="502 393 502 390 768 390 768 393"></polygon>
+                <polygon id="Path-8" fill="#782378" fill-rule="nonzero" mask="url(#mask-2)" points="719 487 722 487 722 563 719 563"></polygon>
             </g>
         </g>
     </g>
