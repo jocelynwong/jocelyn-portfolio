@@ -47,11 +47,11 @@ p {
 /*Buttons and Links*/
 a {
 	color: #4a4a4a;
-	display: inline-block;
-	text-decoration: none;
-	font-family: 'Montserrat', Helvetica, sans-serif;
-	font-size: inherit;
-	font-weight: inherit;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
 	box-shadow: inset 0 0 0 0 #e1e6ff;
 	-webkit-transition: all ease 0.4s;
 	-moz-transition: all ease 0.4s;
@@ -60,7 +60,7 @@ a {
 
 .bdr-btm-1 {
 	border-bottom: 1px solid #3b5ae9;
-	padding: 4px 0; 
+	/* padding: 4px 0; */
 }
 
 .bdr-btm-1:hover {
@@ -73,22 +73,11 @@ nav {
 	padding: 40px 0 40px 0;
 	grid-column: span 12;
 }
-nav ul {
-	display: flex;
-	list-style-type: none;
-	align-items: center;
-}
 
 nav ul li {
+	display: inline-block;
 	padding: 0 24px 0 0;
-}
-
-nav ul li:last-child {
-	padding-right: 0;
-}
-
-nav .push-right {
-	margin-left: auto;
+	vertical-align: middle;
 }
 
 /*Homepage*/
