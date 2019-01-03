@@ -80,6 +80,10 @@ a {
 	transition: all ease 0.4s;
 }
 
+.div-link {
+	display: inline;
+}
+
 .bdr-btm-1 {
 	border-bottom: 1px solid #3b5ae9;
   padding: 4px 0;
@@ -141,6 +145,7 @@ nav .push-right {
 
 footer {
 	grid-column: span 12;
+}
 
 /*Homepage*/
 header {
@@ -172,7 +177,7 @@ section {
 }
 
 section img, video {
-	padding-bottom: 24px;
+	padding: 0 0 16px 0;
 	display: block;
   margin: 0 auto;
 }
@@ -185,8 +190,44 @@ section img, video {
 	grid-column: span 12;
 }
 
+.next-proj {
+  color: #fff;
+	padding: 96px 0 96px 0;
+	grid-column: span 12;
+}
+
+.darken {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sh {
+  background: url(../img/cover-student-hub.svg) no-repeat center center;
+  background-size: cover;
+}
+
+.know {
+  background: url(../img/cover-knowledge.svg) no-repeat center center;
+  background-size: cover;
+}
+
+.vds {
+  background: url(../img/cover-veritas-modal.svg) no-repeat center center;
+  background-size: cover;
+}
+
+.um {
+  background: url(../img/cover-udacity-marketing.svg) no-repeat center center;
+  background-size: cover;
+}
+
+.hed {
+  background: url(../img/cover-highlights-every-day.svg) no-repeat center center;
+  background-size: cover;
+}
+
 .sh-experiment {
 	grid-column: span 12;
+  padding-bottom: 24px;
 }
 
 .vds-adv {
@@ -194,6 +235,7 @@ section img, video {
   background-color: #e3f8ed;
 	border-radius: 4px;
 	padding: 24px;
+  margin-bottom: 16px;
 }
 
 .vds-disadv {
@@ -235,8 +277,12 @@ section img, video {
   padding-bottom: 0;
 }
 
+.vds-alt-img {
+  grid-column: span 3;
+}
+
 .vds-alt-txt {
-  grid-column: span 12;
+  grid-column: 4 / span 9;
 }
 
 .vds-modal ol {
@@ -259,6 +305,10 @@ section img, video {
   height: 32px;
   width: 32px;
   margin-left: -48px;
+}
+
+.hed-screenshots {
+  grid-column: span 12;
 }
 
 /*About Page*/
@@ -326,15 +376,19 @@ section img, video {
 		padding-bottom: 48px;
 	}
 
-	section img, video {
-		padding-bottom: 24px;
-		display: block;
-		margin: 0 auto;
-	}
+  section img, video {
+  	padding: 8px 0 32px 0;
+  	display: block;
+    margin: 0 auto;
+  }
 
 	.proj-text {
 		grid-column: 3 / span 8;
 	}
+
+  .next-proj {
+    grid-column: 3 / span 8;
+  }
 
 	.sh-experiment {
 		grid-column: span 6;
@@ -343,6 +397,7 @@ section img, video {
   .vds-adv {
     grid-column: span 6;
     padding: 48px;
+    margin-bottom: 0;
   }
 
   .vds-disadv {
@@ -364,6 +419,10 @@ section img, video {
 
   .vds-alt-txt {
     grid-column: 5 / span 6;
+  }
+
+  .hed-screenshots {
+    grid-column: span 6;
   }
 
 	/*About Page*/
