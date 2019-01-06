@@ -12,7 +12,7 @@ img {
 li {
 	line-height: 2;
 	padding-bottom: 16px;
-  	margin-left: 24px;
+	margin-left: 24px;
 }
 
 .remove-padding {
@@ -42,7 +42,7 @@ h2 {
 
 h3 {
 	font-family: 'Montserrat', Helvetica, sans-serif;
-  	font-size: 1.125rem;
+	font-size: 1.125rem;
 	font-weight: 700;
 	line-height: 1.5;
 }
@@ -57,7 +57,7 @@ p {
 .grid-container {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-  	grid-column-gap: 24px;
+	grid-column-gap: 24px;
 	max-width: 1140px;
 	margin: 0 16px 0 16px;
 }
@@ -238,27 +238,31 @@ section img, video {
 
 .sh {
   background: url(../img/cover-student-hub.svg) no-repeat center center;
-  background-size: cover;
 }
 
 .know {
   background: url(../img/cover-knowledge.svg) no-repeat center center;
-  background-size: cover;
 }
 
 .vds {
   background: url(../img/cover-veritas-modal.svg) no-repeat center center;
-  background-size: cover;
 }
 
 .um {
   background: url(../img/cover-udacity-marketing.svg) no-repeat center center;
-  background-size: cover;
 }
 
 .hed {
   background: url(../img/cover-highlights-every-day.svg) no-repeat center center;
-  background-size: cover;
+}
+
+.sh, 
+.know,
+.vds, 
+.um, 
+.hed, 
+.sh-experiment {
+	background-size: cover;
 }
 
 .sh-experiment {
@@ -415,7 +419,7 @@ section img, video {
 	section img, video {
 		padding: 8px 0 32px 0;
 		display: block;
-	margin: 0 auto;
+		margin: 0 auto;
 	}
 
 	.proj-text {
@@ -482,10 +486,10 @@ section img, video {
 
 	nav ul.menu-wrap {
 		background-color: transparent;
-	    position: relative;
-	    top: 0;
-	    left: 0;
-	    z-index: 0;
+		position: relative;
+		top: 0;
+		left: 0;
+		z-index: 0;
 	}
 	
 	/* Navigation */
