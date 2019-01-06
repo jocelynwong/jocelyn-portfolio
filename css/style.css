@@ -76,10 +76,6 @@ a {
 	transition: all ease 0.4s;
 }
 
-.div-link {
-	display: inline;
-}
-
 .bdr-btm-1 {
 	border-bottom: 1px solid #3b5ae9;
   padding: 4px 0;
@@ -218,6 +214,15 @@ section img, video {
   	margin: 0 auto;
 }
 
+.next-proj-banner {
+	overflow: hidden;
+	padding-bottom: 0;
+}
+
+.next-proj-banner a {
+	display: block;
+}
+
 .proj-text {
 	grid-column: span 12;
 }
@@ -260,9 +265,17 @@ section img, video {
 .know,
 .vds, 
 .um, 
-.hed, 
-.sh-experiment {
+.hed {
 	background-size: cover;
+	transition: all .5s;
+}
+
+.sh:hover, 
+.know:hover,
+.vds:hover, 
+.um:hover, 
+.hed:hover {
+	transform: scale(1.1);
 }
 
 .sh-experiment {
@@ -405,6 +418,18 @@ section img, video {
 
 	.project p {
 		padding-bottom: 24px;
+	}
+
+	.project a {
+		overflow: hidden;
+	}
+
+	.project img {
+		transition: all .5s;
+	}
+
+	.project img:hover {
+		transform: scale(1.1);
 	}
 
 	/*Project Page*/
