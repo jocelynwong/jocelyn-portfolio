@@ -155,8 +155,12 @@ nav .hamburger.clicked:before {
 nav ul {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	/* justify-content: center; */
 	list-style: none;
+}
+
+nav .center-nav {
+  justify-content: center;
 }
 
 nav ul.menu-wrap {
@@ -199,6 +203,14 @@ header {
 	padding-bottom: 8px;
 }
 
+.project img {
+  transition: all .4s;
+}
+
+.project img:hover {
+  transform: scale(1.05);
+}
+
 /*Project Page*/
 .intro-title {
 	padding: 32px 0 32px 0;
@@ -231,14 +243,18 @@ section img, video {
 	grid-column: span 12;
 }
 
-.next-proj {
+.next-proj-txt {
   color: #fff;
 	padding: 96px 0 96px 0;
 	grid-column: span 12;
 }
 
-.darken {
+/* .darken {
   background-color: rgba(0, 0, 0, 0.3);
+} */
+
+.zoom-contain {
+  overflow: hidden;
 }
 
 .sh {
@@ -267,7 +283,7 @@ section img, video {
 .um, 
 .hed {
 	background-size: cover;
-	transition: all .5s;
+	transition: all .4s;
 }
 
 .sh:hover, 
@@ -451,8 +467,8 @@ section img, video {
 		grid-column: 3 / span 8;
 	}
 
-	.next-proj {
-		grid-column: 3 / span 8;
+	.next-proj-txt {
+	  grid-column: 3 / span 8;
 	}
 
 	.sh-experiment {
@@ -504,7 +520,7 @@ section img, video {
 		padding: 40px 0 40px 0;
 		grid-column: span 12;
 	}
-	
+
 	nav .hamburger {
 		display: none;
 	}
