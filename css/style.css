@@ -155,12 +155,8 @@ nav .hamburger.clicked:before {
 nav ul {
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
+	justify-content: center; 
 	list-style: none;
-}
-
-nav .center-nav {
-  justify-content: center;
 }
 
 nav ul.menu-wrap {
