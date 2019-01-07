@@ -163,8 +163,12 @@ body.menu-active {
 nav ul {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	/* justify-content: center; */
 	list-style: none;
+}
+
+nav .center-nav {
+  justify-content: center;
 }
 
 nav ul.menu-wrap {
@@ -207,6 +211,14 @@ header {
 	padding-bottom: 8px;
 }
 
+.project img {
+  transition: all .4s;
+}
+
+.project img:hover {
+  transform: scale(1.05);
+}
+
 /*Project Page*/
 .intro-title {
 	padding: 32px 0 32px 0;
@@ -230,39 +242,56 @@ section img, video {
 	grid-column: span 12;
 }
 
-.next-proj {
+.next-proj-txt {
   color: #fff;
 	padding: 96px 0 96px 0;
 	grid-column: span 12;
 }
 
-.darken {
+/* .darken {
   background-color: rgba(0, 0, 0, 0.3);
+} */
+
+.zoom-contain {
+  overflow: hidden;
 }
 
 .sh {
-  background: url(../img/cover-student-hub.svg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cover-student-hub.svg) no-repeat center;
   background-size: cover;
+  transition: all .4s;
 }
 
 .know {
-  background: url(../img/cover-knowledge.svg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cover-knowledge.svg) no-repeat center;
   background-size: cover;
+  transition: all .4s;
 }
 
 .vds {
-  background: url(../img/cover-veritas-modal.svg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cover-veritas-modal.svg) no-repeat center center;
   background-size: cover;
+  transition: all .4s;
 }
 
 .um {
-  background: url(../img/cover-udacity-marketing.svg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cover-udacity-marketing.svg) no-repeat center center;
   background-size: cover;
+  transition: all .4s;
 }
 
 .hed {
-  background: url(../img/cover-highlights-every-day.svg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cover-highlights-every-day.svg) no-repeat center center;
   background-size: cover;
+  transition: all .4s;
+}
+
+.zoom-contain:hover .sh, .zoom-contain:focus .sh,
+.zoom-contain:hover .know, .zoom-contain:focus .know,
+.zoom-contain:hover .vds, .zoom-contain:focus .vds,
+.zoom-contain:hover .um, .zoom-contain:focus .um,
+.zoom-contain:hover .hed, .zoom-contain:focus .hed {
+  transform: scale(1.1);
 }
 
 .sh-experiment {
@@ -426,7 +455,7 @@ section img, video {
 		grid-column: 3 / span 8;
 	}
 
-	.next-proj {
+	.next-proj-txt {
 	grid-column: 3 / span 8;
 	}
 
@@ -479,7 +508,7 @@ section img, video {
 		padding: 40px 0 40px 0;
 		grid-column: span 12;
 	}
-	
+
 	nav .hamburger {
 		display: none;
 	}
