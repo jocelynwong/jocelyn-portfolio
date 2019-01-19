@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="744" viewBox="0 0 1440 744">
+  <defs>
+    <rect id="cover-veritas-modal-a" width="1440" height="744"/>
+    <path id="cover-veritas-modal-c" d="M40,77 C60.4345357,77 77,60.4345357 77,40 C77,19.5654643 60.4345357,3 40,3 C19.5654643,3 3,19.5654643 3,40 C3,60.4345357 19.5654643,77 40,77 Z M40,80 C17.90861,80 0,62.09139 0,40 C0,17.90861 17.90861,0 40,0 C62.09139,0 80,17.90861 80,40 C80,62.09139 62.09139,80 40,80 Z"/>
+    <path id="cover-veritas-modal-e" d="M28,53 C41.8071187,53 53,41.8071187 53,28 C53,14.1928813 41.8071187,3 28,3 C14.1928813,3 3,14.1928813 3,28 C3,41.8071187 14.1928813,53 28,53 Z M28,56 C12.536027,56 0,43.463973 0,28 C0,12.536027 12.536027,0 28,0 C43.463973,0 56,12.536027 56,28 C56,43.463973 43.463973,56 28,56 Z"/>
+    <path id="cover-veritas-modal-g" d="M16,29 C23.1797017,29 29,23.1797017 29,16 C29,8.82029825 23.1797017,3 16,3 C8.82029825,3 3,8.82029825 3,16 C3,23.1797017 8.82029825,29 16,29 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="cover-veritas-modal-b" fill="#fff">
+      <use xlink:href="#cover-veritas-modal-a"/>
+    </mask>
+    <use fill="#782378" xlink:href="#cover-veritas-modal-a"/>
+    <g mask="url(#cover-veritas-modal-b)">
+      <g transform="translate(454 56)">
+        <mask id="cover-veritas-modal-d" fill="#fff">
+          <use xlink:href="#cover-veritas-modal-c"/>
+        </mask>
+        <use fill="#8A278A" fill-rule="nonzero" xlink:href="#cover-veritas-modal-c"/>
+        <rect width="40" height="40" y="40" fill="#C247C2" mask="url(#cover-veritas-modal-d)"/>
+      </g>
+    </g>
+    <g mask="url(#cover-veritas-modal-b)">
+      <g transform="translate(558 80)">
+        <mask id="cover-veritas-modal-f" fill="#fff">
+          <use xlink:href="#cover-veritas-modal-e"/>
+        </mask>
+        <use fill="#8A278A" fill-rule="nonzero" xlink:href="#cover-veritas-modal-e"/>
+        <rect width="28" height="28" y="28" fill="#C247C2" mask="url(#cover-veritas-modal-f)"/>
+      </g>
+    </g>
+    <g mask="url(#cover-veritas-modal-b)">
+      <g transform="translate(638 104)">
+        <mask id="cover-veritas-modal-h" fill="#fff">
+          <use xlink:href="#cover-veritas-modal-g"/>
+        </mask>
+        <use fill="#8A278A" fill-rule="nonzero" xlink:href="#cover-veritas-modal-g"/>
+        <rect width="16" height="16" y="16" fill="#C247C2" mask="url(#cover-veritas-modal-h)"/>
+      </g>
+    </g>
+    <g mask="url(#cover-veritas-modal-b)">
+      <g transform="translate(48 108)">
+        <polygon fill="#9D339D" fill-rule="nonzero" points="0 17.5 0 14.5 358 14.5 358 17.5"/>
+        <circle cx="116" cy="16" r="16" fill="#9D339D"/>
+        <circle cx="116" cy="16" r="6" fill="#782378"/>
+      </g>
+    </g>
+    <rect width="532" height="376" x="454" y="184" fill="#FFA37A" mask="url(#cover-veritas-modal-b)"/>
+    <rect width="171" height="3" x="502" y="522" fill="#782378" mask="url(#cover-veritas-modal-b)"/>
+    <rect width="171" height="3" x="769" y="522" fill="#782378" mask="url(#cover-veritas-modal-b)"/>
+    <rect width="268" height="72" x="718" y="64" fill="#9D339D" mask="url(#cover-veritas-modal-b)"/>
+    <rect width="144" height="90" x="262" y="-10" fill="#9D339D" mask="url(#cover-veritas-modal-b)"/>
+    <rect width="268" height="72" x="718" y="-56" fill="#9D339D" mask="url(#cover-veritas-modal-b)"/>
+    <rect width="166" height="72" x="240" y="184" fill="#9D339D" mask="url(#cover-veritas-modal-b)"/>
+    <path fill="#9D339D" fill-rule="nonzero" d="M-16 187L-16 253 213 253 213 187-16 187zM-19 184L216 184 216 256-19 256-19 184zM1037 490L1037 556 1389 556 1389 490 1037 490zM1034 487L1392 487 1392 559 1034 559 1034 487z" mask="url(#cover-veritas-modal-b)"/>
+    <g fill="#9D339D" fill-rule="nonzero" mask="url(#cover-veritas-modal-b)">
+      <path d="M3,147 L3,189 L45,189 L45,147 L3,147 Z M0,144 L48,144 L48,192 L0,192 L0,144 Z M35.9393398,157.486215 L38.0606602,159.607535 L19.546875,178.12132 L9.93933983,168.513785 L12.0606602,166.392465 L19.546875,173.87868 L35.9393398,157.486215 Z M3,75 L3,117 L45,117 L45,75 L3,75 Z M0,72 L48,72 L48,120 L0,120 L0,72 Z M3,3 L3,45 L45,45 L45,3 L3,3 Z M0,0 L48,0 L48,48 L0,48 L0,0 Z M72,18 L72,15 L430,15 L430,18 L72,18 Z M72,34 L72,31 L430,31 L430,34 L72,34 Z M72,162 L72,159 L430,159 L430,162 L72,162 Z M72,178 L72,175 L430,175 L430,178 L72,178 Z M72,90 L72,87 L430,87 L430,90 L72,90 Z M72,106 L72,103 L430,103 L430,106 L72,106 Z" transform="translate(1034 247)"/>
+    </g>
+    <rect width="358" height="187" x="1034" y="556" fill="#9D339D" mask="url(#cover-veritas-modal-b)"/>
+    <rect width="358" height="200" x="1034" y="-1" fill="#9D339D" mask="url(#cover-veritas-modal-b)"/>
+    <rect width="100" height="40" x="114" y="40" fill="#9D339D" mask="url(#cover-veritas-modal-b)"/>
+    <rect width="32" height="32" x="148" y="54" fill="#9D339D" mask="url(#cover-veritas-modal-b)" transform="rotate(-45 164 70)"/>
+    <rect width="32" height="32" x="1370" y="83" fill="#9D339D" mask="url(#cover-veritas-modal-b)" transform="rotate(-45 1386 99)"/>
+    <rect width="362" height="187" x="454" y="680" fill="#9D339D" mask="url(#cover-veritas-modal-b)"/>
+    <g fill="#9D339D" mask="url(#cover-veritas-modal-b)">
+      <g transform="translate(453 608)">
+        <polygon fill-rule="nonzero" points="3 24 0 24 0 0 3 0"/>
+        <polygon fill-rule="nonzero" points="364 24 361 24 361 0 364 0"/>
+        <polygon fill-rule="nonzero" points="2 13.5 2 10.5 154 10.5 154 13.5"/>
+        <polygon fill-rule="nonzero" points="211 13.5 211 10.5 363 10.5 363 13.5"/>
+        <rect width="39" height="16" x="163" y="4" rx="8"/>
+      </g>
+    </g>
+    <g mask="url(#cover-veritas-modal-b)">
+      <g transform="translate(-62 302)">
+        <rect width="468" height="472" y="2" fill="#9D339D"/>
+        <rect width="418" height="72" x="50" y="2" fill="#B73BB7"/>
+        <polygon fill="#782378" fill-rule="nonzero" points="470 72.5 470 75.5 36 75.5 36 72.5"/>
+        <polygon fill="#782378" fill-rule="nonzero" points="470 144.5 470 147.5 36 147.5 36 144.5"/>
+        <polygon fill="#782378" fill-rule="nonzero" points="470 216.5 470 219.5 36 219.5 36 216.5"/>
+        <polygon fill="#782378" fill-rule="nonzero" points="470 288.5 470 291.5 36 291.5 36 288.5"/>
+        <polygon fill="#782378" fill-rule="nonzero" points="470 352.5 470 355.5 36 355.5 36 352.5"/>
+        <polygon fill="#782378" fill-rule="nonzero" points="470 424.5 470 427.5 36 427.5 36 424.5"/>
+        <polygon fill="#782378" fill-rule="nonzero" points="278.5 0 281.5 0 281.5 454 278.5 454"/>
+        <polygon fill="#782378" fill-rule="nonzero" points="90.5 0 93.5 0 93.5 454 90.5 454"/>
+      </g>
+    </g>
+    <path fill="#9D339D" fill-rule="nonzero" d="M896,611 C879.983742,611 867,623.983742 867,640 C867,656.016258 879.983742,669 896,669 L954,669 C970.016258,669 983,656.016258 983,640 C983,623.983742 970.016258,611 954,611 L896,611 Z M896,608 L954,608 C971.673112,608 986,622.326888 986,640 C986,657.673112 971.673112,672 954,672 L896,672 C878.326888,672 864,657.673112 864,640 C864,622.326888 878.326888,608 896,608 Z" mask="url(#cover-veritas-modal-b)"/>
+    <circle cx="954" cy="640" r="20" fill="#9D339D" mask="url(#cover-veritas-modal-b)"/>
+    <path fill="#9D339D" fill-rule="nonzero" d="M896,715 C879.983742,715 867,727.983742 867,744 C867,760.016258 879.983742,773 896,773 L954,773 C970.016258,773 983,760.016258 983,744 C983,727.983742 970.016258,715 954,715 L896,715 Z M896,712 L954,712 C971.673112,712 986,726.326888 986,744 C986,761.673112 971.673112,776 954,776 L896,776 C878.326888,776 864,761.673112 864,744 C864,726.326888 878.326888,712 896,712 Z" mask="url(#cover-veritas-modal-b)"/>
+    <circle cx="896" cy="744" r="20" fill="#9D339D" mask="url(#cover-veritas-modal-b)"/>
+    <g fill="#782378" fill-rule="nonzero" mask="url(#cover-veritas-modal-b)">
+      <path d="M14.8284271,12 L23.4142136,20.5857864 L20.5857864,23.4142136 L12,14.8284271 L3.41421356,23.4142136 L0.585786438,20.5857864 L9.17157288,12 L0.585786438,3.41421356 L3.41421356,0.585786438 L12,9.17157288 L20.5857864,0.585786438 L23.4142136,3.41421356 L14.8284271,12 Z" transform="translate(940 206)"/>
+    </g>
+    <polygon fill="#9D339D" fill-rule="nonzero" points="1348 528.879 1360.939 515.939 1363.061 518.061 1348 533.121 1332.939 518.061 1335.061 515.939" mask="url(#cover-veritas-modal-b)"/>
+    <polygon fill="#782378" fill-rule="nonzero" points="454 489.5 454 486.5 987 486.5 987 489.5" mask="url(#cover-veritas-modal-b)"/>
+    <path fill="#782378" fill-rule="nonzero" d="M502,329 L502,326 L938,326 L938,329 L502,329 Z M502,297 L502,294 L938,294 L938,297 L502,297 Z M502,361 L502,358 L938,358 L938,361 L502,361 Z M502,393 L502,390 L768,390 L768,393 L502,393 Z" mask="url(#cover-veritas-modal-b)"/>
+    <polygon fill="#782378" fill-rule="nonzero" points="719 487 722 487 722 563 719 563" mask="url(#cover-veritas-modal-b)"/>
+  </g>
+</svg>

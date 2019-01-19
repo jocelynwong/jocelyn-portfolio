@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="744" viewBox="0 0 1440 744">
+  <defs>
+    <rect id="project-student-hub-a" width="1440" height="744"/>
+    <path id="project-student-hub-c" d="M48,0 L186,0 C212.509668,-4.86974701e-15 234,21.490332 234,48 L234,292 L0,292 L0,48 C-3.24649801e-15,21.490332 21.490332,4.86974701e-15 48,0 Z"/>
+    <path id="project-student-hub-e" d="M36,0 L36,0 C55.882251,-3.65231026e-15 72,16.117749 72,36 L72,152 L0,152 L0,36 C-2.4348735e-15,16.117749 16.117749,3.65231026e-15 36,0 Z"/>
+    <path id="project-student-hub-g" d="M36,0 L36,0 C55.882251,-3.65231026e-15 72,16.117749 72,36 L72,152 L0,152 L0,36 C-2.4348735e-15,16.117749 16.117749,3.65231026e-15 36,0 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="project-student-hub-b" fill="#fff">
+      <use xlink:href="#project-student-hub-a"/>
+    </mask>
+    <use fill="#1D6675" xlink:href="#project-student-hub-a"/>
+    <g mask="url(#project-student-hub-b)">
+      <g transform="translate(1027 335)">
+        <path fill="#092A32" d="M118,0 L118,0 C137.882251,-3.65231026e-15 154,16.117749 154,36 L154,152 L82,152 L82,36 C82,16.117749 98.117749,3.65231026e-15 118,0 Z"/>
+        <g transform="translate(0 122)">
+          <mask id="project-student-hub-d" fill="#fff">
+            <use xlink:href="#project-student-hub-c"/>
+          </mask>
+          <use fill="#399CB0" xlink:href="#project-student-hub-c"/>
+          <path stroke="#144D59" stroke-width="3" d="M180.5,77 L180.5,292" mask="url(#project-student-hub-d)"/>
+          <path stroke="#58C2D7" stroke-width="3" d="M99.5,19 L99.5,74" mask="url(#project-student-hub-d)"/>
+          <circle cx="85" cy="42" r="3" fill="#58C2D7" mask="url(#project-student-hub-d)"/>
+          <circle cx="85" cy="58" r="3" fill="#58C2D7" mask="url(#project-student-hub-d)"/>
+        </g>
+        <polygon fill="#092A32" points="86 30 67 66 86 66"/>
+        <path fill="#FFC977" d="M82,0 L154,0 L154,1 C154,20.882251 137.882251,37 118,37 L118,37 C98.117749,37 82,20.882251 82,1 L82,0 Z" transform="rotate(-180 118 18.5)"/>
+        <path stroke="#FFC977" stroke-width="3" d="M154,38 L63,38"/>
+        <polygon fill="#092A32" points="82 121 82 153 154 122"/>
+      </g>
+    </g>
+    <g mask="url(#project-student-hub-b)">
+      <g transform="translate(745 417)">
+        <path fill="#092A32" d="M117,0 L117,0 C151.373409,-6.31429285e-15 180.462491,25.3915992 185.106792,59.4498101 L201,176 L33,176 L48.8932077,59.4498101 C53.5375092,25.3915992 82.6265907,6.31429285e-15 117,0 Z"/>
+        <path fill="#399CB0" d="M117,24 L117,24 C136.882251,24 153,40.117749 153,60 L153,176 L81,176 L81,60 C81,40.117749 97.117749,24 117,24 Z"/>
+        <path fill="#399CB0" d="M48,146 L186,146 C212.509668,146 234,167.490332 234,194 L234,366 L0,366 L0,194 C-3.24649801e-15,167.490332 21.490332,146 48,146 Z"/>
+        <rect width="120" height="43" x="57" y="308" fill="#092A32"/>
+        <rect width="123" height="164" x="56" y="146" fill="#FFF"/>
+        <polygon fill="#FFF" points="43 219 56 146 56 310 43 310"/>
+        <polygon fill="#FFF" points="179 219 192 146 192 310 179 310" transform="matrix(-1 0 0 1 371 0)"/>
+        <path stroke="#144D59" stroke-width="3" d="M56 195L179 195M56 171L179 171"/>
+        <polygon fill="#399CB0" points="82 146 118 180 153 146"/>
+        <path stroke="#144D59" stroke-width="3" d="M56 219L179 219M56 243L179 243M56 267L179 267M56 291L179 291"/>
+        <polyline stroke="#144D59" stroke-width="3" points="110 53 100 78 113 78"/>
+      </g>
+    </g>
+    <g mask="url(#project-student-hub-b)">
+      <g transform="translate(180 403)">
+        <circle cx="77.5" cy="23.5" r="23.5" fill="#FFF"/>
+        <g transform="translate(82 14)">
+          <mask id="project-student-hub-f" fill="#fff">
+            <use xlink:href="#project-student-hub-e"/>
+          </mask>
+          <use fill="#399CB0" xlink:href="#project-student-hub-e"/>
+          <path fill="#FFF" d="M36,-9.23705556e-14 L42.6738281,-9.23705556e-14 C58.8702256,-9.53457856e-14 72,13.1297744 72,29.3261719 L0,79 L-7.10542736e-15,36 C-9.54030086e-15,16.117749 16.117749,-8.87182454e-14 36,-9.23705556e-14 Z" mask="url(#project-student-hub-f)"/>
+        </g>
+        <path fill="#399CB0" d="M145 59L154 59C157.865993 59 161 62.1340068 161 66L161 66C161 69.8659932 157.865993 73 154 73L145 73 145 59zM49 136L187 136C213.509668 136 235 157.490332 235 184L235 356 1 356 1 184C1 157.490332 22.490332 136 49 136z"/>
+        <rect width="139" height="175" x="60" y="166" fill="#092A32"/>
+        <path fill="#FFC977" d="M50,136 L82,136 L82,341 L0,341 L7.10542736e-15,186 C3.7236586e-15,158.385763 22.3857625,136 50,136 Z"/>
+        <path fill="#FFC977" d="M202,136 L235,136 L235,341 L154,341 L154,184 C154,157.490332 175.490332,136 202,136 Z" transform="matrix(-1 0 0 1 389 0)"/>
+        <path stroke="#144D59" stroke-width="3" d="M61.5,197 L61.5,412"/>
+      </g>
+    </g>
+    <g mask="url(#project-student-hub-b)">
+      <g transform="translate(463 331)">
+        <rect width="112" height="140" x="50" y="20" fill="#399CB0" rx="56" transform="rotate(-135 106 90)"/>
+        <g transform="translate(81 63)">
+          <mask id="project-student-hub-h" fill="#fff">
+            <use xlink:href="#project-student-hub-g"/>
+          </mask>
+          <use fill="#FFC977" xlink:href="#project-student-hub-g"/>
+          <polygon fill="#58C2D7" points="59 4 -6 36 4 -1 56 -8" mask="url(#project-student-hub-h)"/>
+        </g>
+        <path fill="#092A32" d="M48,185 L186,185 C212.509668,185 234,206.490332 234,233 L234,413 L0,413 L0,233 C-3.24649801e-15,206.490332 21.490332,185 48,185 Z"/>
+        <polygon fill="#FFC977" points="81 184 81 216 153 185" transform="matrix(-1 0 0 1 234 0)"/>
+        <polygon fill="#FFC977" points="20 319 117 351 117 413 20 413"/>
+        <polygon fill="#FFC977" points="117 319 214 351 214 413 117 413" transform="matrix(-1 0 0 1 331 0)"/>
+        <polyline stroke="#144D59" stroke-width="3" points="139 91 140 124 128 124"/>
+        <path stroke="#144D59" stroke-width="3" d="M117,350 L117,413"/>
+        <polyline stroke="#FFF" stroke-width="3" points="34 317 117 345 202 317"/>
+        <polyline stroke="#FFF" stroke-width="3" points="40 313 117 338 197 312"/>
+      </g>
+    </g>
+    <g mask="url(#project-student-hub-b)">
+      <g transform="translate(250 154)">
+        <path fill="#399CB0" d="M81,-8.52651283e-14 L350,-9.9475983e-14 C405.228475,-1.58674029e-13 450,44.771525 450,100 L450,162 L81,162 C36.2649353,162 -2.2943244e-14,125.735065 -2.84217094e-14,81 L-2.84217094e-14,81 C-3.39001748e-14,36.2649353 36.2649353,-7.70474302e-14 81,-8.52651283e-14 Z" transform="matrix(-1 0 0 1 450 0)"/>
+        <path stroke="#144D59" stroke-width="4" d="M85 69.5L365 69.5M85 45.5L365 45.5M85 93.5L365 93.5M85 117.5L293 117.5"/>
+      </g>
+    </g>
+    <path fill="#092A32" d="M779.5,286 L911,286 C938.614237,286 961,308.385763 961,336 L961,365 L779.5,365 C757.684752,365 740,347.315248 740,325.5 L740,325.5 C740,303.684752 757.684752,286 779.5,286 Z" mask="url(#project-student-hub-b)"/>
+    <path fill="#58C2D7" d="M518.5,43 L650,43 C677.614237,43 700,65.3857625 700,93 L700,122 L518.5,122 C496.684752,122 479,104.315248 479,82.5 L479,82.5 C479,60.6847524 496.684752,43 518.5,43 Z" mask="url(#project-student-hub-b)" transform="matrix(-1 0 0 1 1179 0)"/>
+    <g mask="url(#project-student-hub-b)">
+      <g transform="translate(740 84)">
+        <path fill="#FFC977" d="M81,0 L350,1.42108547e-14 C405.228475,4.06554845e-15 450,44.771525 450,100 L450,162 L81,162 C36.2649353,162 5.47846538e-15,125.735065 0,81 L0,81 C-5.47846538e-15,36.2649353 36.2649353,8.21769808e-15 81,0 Z"/>
+        <path stroke="#144D59" stroke-width="4" d="M85 69.4022267L365 69.4022267M85 45.4022267L365 45.4022267M85 93.4022267L365 93.4022267M85 117.402227L293 117.402227"/>
+      </g>
+    </g>
+  </g>
+</svg>

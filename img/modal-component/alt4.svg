@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="224px" height="168px" viewBox="0 0 224 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="224" height="168"></rect>
+    </defs>
+    <g id="Projects" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Veritas-Modal" transform="translate(-344.000000, -8581.000000)">
+            <g id="Group-14" transform="translate(344.000000, 8005.000000)">
+                <g id="Group-13" transform="translate(0.000000, 576.000000)">
+                    <g id="Group-7-Copy-2">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Rectangle-6" fill="#F8F8F8" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect id="Rectangle-7-Copy" fill="#DFDFDF" fill-rule="nonzero" opacity="0.5" mask="url(#mask-2)" x="18" y="31" width="126" height="106" rx="4"></rect>
+                        <rect id="Rectangle-7" fill="#02CCBA" fill-rule="nonzero" mask="url(#mask-2)" x="71" y="17" width="161" height="135"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
