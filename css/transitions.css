@@ -24,8 +24,8 @@
   animation-name: fadeInLeft; }
 /* line 32, /Users/miguelperez/Sites/csstricks/source/stylesheets/pageTransitions.css.scss */
 .m-scene .scene_element--delayed {
-  -webkit-animation-delay: 0.25s;
-  animation-delay: 0.25s; }
+  -webkit-animation-delay: 0.35s;
+  animation-delay: 0.35s; }
 /* line 37, /Users/miguelperez/Sites/csstricks/source/stylesheets/pageTransitions.css.scss */
 .m-scene.is-exiting .scene_element {
   -webkit-animation-direction: alternate-reverse;
