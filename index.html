@@ -10,10 +10,13 @@
 
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.smoothState.js"></script>
     <script src="js/scripts.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Playfair+Display:900" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/keyframes.css">
+    <link rel="stylesheet" type="text/css" href="css/transitions.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=zXbG8ngvPG">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?v=zXbG8ngvPG">
@@ -21,60 +24,62 @@
     <link rel="manifest" href="/site.webmanifest?v=zXbG8ngvPG">
     <link rel="mask-icon" href="/safari-pinned-tab.svg?v=zXbG8ngvPG" color="#3b5ae9">
     <link rel="shortcut icon" href="favicon.ico?v=zXbG8ngvPG">
-    <meta name="msapplication-TileColor" content="#3b5ae9">
-    <meta name="theme-color" content="#f0f7ff">
+    <meta name="msapplication-TileColor" content="#3b5ae9" />
+    <meta name="theme-color" content="#f0f7ff" />
   </head>
   <body>
-    <header>
-      <div class="grid-container">
-        <nav>
-          <span class="hamburger"></span>
-          <ul class="menu-wrap">
-            <li><a href="index.html"><img src="img/logo.svg" alt="Jocelyn Wong's logo"></a></li>
-            <li><a class="nav-btn" href="index.html">Portfolio</a></li>
-            <li><a class="nav-btn" href="about.html">About</a></li>
-            <li class="push-right">Say hello at <a class="bdr-btm-1" href="mailto:jocelyn.sl.wong@gmail.com"  target="_blank">jocelyn.sl.wong&#64;gmail.com</a></li>
-            <li><a class="nav-btn" href="https://dribbble.com/jocelynswong" target="_blank"><img src="img/icon-dribbble.svg" alt="Dribbble icon"></a></li>
-            <li><a class="nav-btn" href="https://www.linkedin.com/in/jocelyn-wong-4a66ab28/" target="_blank"><img src="img/icon-linkedin.svg" alt="LinkedIn icon"></a></li>
-          </ul>
-        </nav>
-        <div class="intro">
-          <h1>Jocelyn Wong</h1>
-          <p>Product Designer &#64; Udacity</p>
+    <div class="m-scene" id="main">
+      <header>
+        <div class="grid-container">
+          <nav>
+            <span class="hamburger"></span>
+            <ul class="menu-wrap">
+              <li><a href="index.html"><img src="img/logo.svg" alt="Jocelyn Wong's logo"></a></li>
+              <li><a class="nav-btn" href="index.html">Portfolio</a></li>
+              <li><a class="nav-btn" href="about.html">About</a></li>
+              <li class="push-right">Say hello at <a class="bdr-btm-1" href="mailto:jocelyn.sl.wong@gmail.com">jocelyn.sl.wong&#64;gmail.com</a></li>
+              <li><a class="nav-btn" href="https://dribbble.com/jocelynswong" target="_blank"><img src="img/icon-dribbble.svg" alt="Dribbble icon"></a></li>
+              <li><a class="nav-btn" href="https://www.linkedin.com/in/jocelyn-wong-4a66ab28/" target="_blank"><img src="img/icon-linkedin.svg" alt="LinkedIn icon"></a></li>
+            </ul>
+          </nav>
+          <div class="intro scene_element scene_element--fadeinleft">
+            <h1>Jocelyn Wong</h1>
+            <p>Product Designer &#64; Udacity</p>
+          </div>
+        </div>
+      </header>
+      <div class="grid-container scene_element scene_element--fadeinup">
+        <div class="project">
+          <h2>Student Hub</h2>
+          <p>Connecting students to their community through chat</p>
+          <a href="project-student-hub.html"><img src="img/cover-student-hub.svg" alt="Student Hub"></a>
+        </div>
+        <div class="project">
+          <h2>Knowledge</h2>
+          <p>Student-powered Q&A resource</p>
+          <a href="project-knowledge.html"><img src="img/cover-knowledge.svg" alt="Knowledge"></a>
+        </div>
+        <div class="project">
+          <h2>Modal Component</h2>
+          <p>Design systems contribution</p>
+          <a href="project-modal-component.html"><img src="img/cover-veritas-modal.svg" alt="Modal Component"></a>
+        </div>
+        <div class="project">
+          <h2>Udacity Marketing</h2>
+          <p>Collection of marketing pages</p>
+          <a href="project-udacity-marketing.html"><img src="img/cover-udacity-marketing.svg" alt="Udacity Marketing"></a>
+        </div>
+        <div class="project">
+          <h2>Highlights Every Day</h2>
+          <p>Kids magazine reimagined as an app</p>
+          <a href="project-highlights.html"><img src="img/cover-highlights-every-day.svg" alt="Highlights Every Day"></a>
         </div>
       </div>
-    </header>
-    <div class="grid-container">
-      <div class="project">
-        <h2>Student Hub</h2>
-        <p>Connecting students to their community through chat</p>
-        <a href="project-student-hub.html"><img src="img/cover-student-hub.svg" alt="Student Hub"></a>
+      <div class="grid-container">
+        <footer>
+      	   <p>&copy; 2019 Jocelyn Wong</p>
+        </footer>
       </div>
-      <div class="project">
-        <h2>Knowledge</h2>
-        <p>Student-powered Q&A resource</p>
-        <a href="project-knowledge.html"><img src="img/cover-knowledge.svg" alt="Knowledge"></a>
-      </div>
-      <div class="project">
-        <h2>Modal Component</h2>
-        <p>Design systems contribution</p>
-        <a href="project-modal-component.html"><img src="img/cover-veritas-modal.svg" alt="Modal Component"></a>
-      </div>
-      <div class="project">
-        <h2>Udacity Marketing</h2>
-        <p>Collection of marketing pages</p>
-        <a href="project-udacity-marketing.html"><img src="img/cover-udacity-marketing.svg" alt="Udacity Marketing"></a>
-      </div>
-      <div class="project">
-        <h2>Highlights Every Day</h2>
-        <p>Kids magazine reimagined as an app</p>
-        <a href="project-highlights.html"><img src="img/cover-highlights-every-day.svg" alt="Highlights Every Day"></a>
-      </div>
-    </div>
-    <div class="grid-container">
-      <footer>
-    	   <p>&copy; 2019 Jocelyn Wong</p>
-      </footer>
     </div>
   </body>
 </html>

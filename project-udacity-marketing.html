@@ -9,9 +9,14 @@
   	<meta name="Resource-type" content="Document" />
 
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Playfair+Display:900" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.smoothState.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Playfair+Display:900" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/keyframes.css" />
+    <link rel="stylesheet" type="text/css" href="css/transitions.css" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=zXbG8ngvPG">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?v=zXbG8ngvPG">
@@ -31,63 +36,69 @@
         </ul>
       </nav>
     </div>
-    <div class="grid-container">
-      <div class="proj-text intro-title">
-        <h1>Udacity Marketing</h1>
-        <p>Collection of marketing pages</p>
+    <div class="m-scene">
+      <div class="grid-container">
+        <div class="proj-text intro-title scene_element scene_element--fadeinleft">
+          <h1>Udacity Marketing</h1>
+          <p>Collection of marketing pages</p>
+        </div>
+      </div>
+      <div class="scene_element scene_element--fadeinup">
+        <section>
+          <img src="img/cover-udacity-marketing.svg" alt="Udacity Marketing">
+        </section>
+        <section>
+          <div class="grid-container">
+            <div class="proj-text">
+              <h2>New Years Campaign 2018</h2>
+              <img src="img/udacity-marketing/ny1.jpg" alt="New Years campaign homepage">
+            </div>
+            <div class="proj-img">
+              <img src="img/udacity-marketing/ny2.jpg" alt="New Years campaign homepage variations">
+              <img src="img/udacity-marketing/ny3.jpg" alt="Nanodegree program card variations">
+              <img src="img/udacity-marketing/ny4.jpg" alt="New Years campaign on mobile web">
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="grid-container">
+            <div class="proj-text">
+              <h2>Jobs Page</h2>
+              <img src="img/udacity-marketing/jobs1.jpg" alt="Udacity's jobs page">
+            </div>
+            <div class="proj-img">
+              <img src="img/udacity-marketing/jobs2.jpg" alt="Udacity's jobs page on mobile web">
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="grid-container">
+            <div class="proj-text">
+              <h2>Contact Page</h2>
+              <img src="img/udacity-marketing/contact1.jpg" alt="Udacity's contact us page">
+            </div>
+        </section>
+        <section>
+          <div class="grid-container">
+            <div class="proj-text">
+              <h2>Press Page</h2>
+              <img src="img/udacity-marketing/press1.jpg" alt="Udacity's press page">
+            </div>
+        </section>
+        <section class="next-proj-banner">
+          <a href="project-highlights.html">
+            <div class="hed">
+              <div class="darken">
+                <div class="grid-container">
+                  <div class="next-proj-txt">
+                    <p class="remove-padding">Next Project</p>
+                    <h2>Highlights Every Day</h2>
+                  </div>
+                </div>
+            </div>
+          </a>
+        </section>
       </div>
     </div>
-    <section><img src="img/cover-udacity-marketing.svg" alt="Udacity Marketing"></section>
-    <section>
-      <div class="grid-container">
-        <div class="proj-text">
-          <h2>New Years Campaign 2018</h2>
-          <img src="img/udacity-marketing/ny1.jpg" alt="New Years campaign homepage">
-        </div>
-        <div class="proj-img">
-          <img src="img/udacity-marketing/ny2.jpg" alt="New Years campaign homepage variations">
-          <img src="img/udacity-marketing/ny3.jpg" alt="Nanodegree program card variations">
-          <img src="img/udacity-marketing/ny4.jpg" alt="New Years campaign on mobile web">
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="grid-container">
-        <div class="proj-text">
-          <h2>Jobs Page</h2>
-          <img src="img/udacity-marketing/jobs1.jpg" alt="Udacity's jobs page">
-        </div>
-        <div class="proj-img">
-          <img src="img/udacity-marketing/jobs2.jpg" alt="Udacity's jobs page on mobile web">
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="grid-container">
-        <div class="proj-text">
-          <h2>Contact Page</h2>
-          <img src="img/udacity-marketing/contact1.jpg" alt="Udacity's contact us page">
-        </div>
-    </section>
-    <section>
-      <div class="grid-container">
-        <div class="proj-text">
-          <h2>Press Page</h2>
-          <img src="img/udacity-marketing/press1.jpg" alt="Udacity's press page">
-        </div>
-    </section>
-    <section class="next-proj-banner">
-      <a href="project-highlights.html">
-        <div class="hed">
-          <div class="darken">
-            <div class="grid-container">
-              <div class="next-proj-txt">
-                <p class="remove-padding">Next Project</p>
-                <h2>Highlights Every Day</h2>
-              </div>
-            </div>
-        </div>
-      </a>
-    </section>
   </body>
 </html>
