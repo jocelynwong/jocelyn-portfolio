@@ -1,7 +1,7 @@
 /* CSS Page Transitions */
 .m-scene .scene_element {
-  -webkit-animation-duration: 0.25s;
-  animation-duration: 0.25s;
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
   -webkit-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
   -webkit-animation-fill-mode: both;
