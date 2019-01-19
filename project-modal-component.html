@@ -9,9 +9,14 @@
   	<meta name="Resource-type" content="Document" />
 
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Playfair+Display:900" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.smoothState.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Playfair+Display:900" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/keyframes.css" />
+    <link rel="stylesheet" type="text/css" href="css/transitions.css" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=zXbG8ngvPG">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?v=zXbG8ngvPG">
@@ -31,165 +36,171 @@
         </ul>
       </nav>
     </div>
-    <div class="grid-container">
-      <div class="proj-text intro-title">
-        <h1>Modal Component</h1>
-        <p>Veritas design systems contribution</p>
-      </div>
-    </div>
-    <section><img src="img/cover-veritas-modal.svg" alt="Modal component"></section>
-    <section>
+    <div class="m-scene">
       <div class="grid-container">
-        <div class="proj-text">
-          <p class="remove-padding">I had the opportunity to research and design a modal component and add it to <a class="bdr-btm-1" href="https://www.udacity.com/">Udacity’s</a> design system, Veritas. I helped create the symbol component for the Veritas Sketch library and worked with a design systems engineer who helped code it.</p>
+        <div class="proj-text intro-title scene_element scene_element--fadeinup scene_element--delayed">
+          <h1>Modal Component</h1>
+          <p>Veritas design systems contribution</p>
         </div>
       </div>
-    </section>
-    <section>
-      <div class="grid-container">
-        <div class="proj-text">
-          <h2>Research</h2>
-          <p>Modals (or some people like to call them dialogues) are an amazing and powerful UI component in the right circumstances, but it’s important to understand when to use them.</p>
-          <p>I started by reading up on best practices to get a general sense of the do’s and dont’s of modals. There were plenty of articles to go through, notably one from the Nielson Normal Group on <a href="https://www.nngroup.com/articles/modal-nonmodal-dialog/">Modal & Non-modal Dialogues</a>.</p>
-          <p>Here’s what I distilled down: modals help bring undivided focus to an action or piece of content, and helps prevent losing context or place in the overall page by opening something on a layer above.</p>
-        </div>
-        <div class="vds-adv">
-          <h3 class="add-padding-24">Advantages</h3>
-          <ul>
-            <li>Helps bring undivided focus to an action or piece of content</li>
-            <li>Prevents losing context / place in the overall page</li>
-          </ul>
-        </div>
-        <div class="vds-disadv">
-          <h3 class="add-padding-24">Disadvantages</h3>
-          <ul>
-            <li>Interrupts user flow</li>
-            <li>Cause users to forget what they were doing</li>
-            <li>Cause users to create and address an extra goal</li>
-            <li>Block content in background (consider “working memory”)</li>
-            <li>It’s expected all work is lost when closing modal</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="grid-container">
-        <div class="proj-text">
-          <h2>Modal Audit</h2>
-          <p>Before even starting the design, I wanted an audit of all the modals we were using in our current products. Luckily, the design systems team at Udacity had already done an audit of many of the different components, including modals.</p>
-        </div>
-      </div>
-      <img src="img/modal-component/audit.jpg" alt="Screenshots of different modals from Udacity">
-      <div class="grid-container">
-        <div class="proj-text">
-          <p>Crazy! There was such a dizzying array of modal layouts and it was really interesting to see the variety. While I needed to be considerate of what we were already using, I wanted to keep in mind that we can actually use this modal component to encourage new, better usage.</p>
-          <p class="remove-padding">In addition to our personal audit, I had also taken a look at the modal component from other design systems such as Atlassian, Carbon, and Quickbooks.</p>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="grid-container">
-        <div class="proj-text">
-          <h2>Defining the Component</h2>
-          <p>I had bounced back and forth between having more strict limitations on the modal versus having looser restrictions. Should title’s be required? Left align, center align, or both? Should we limit what components could be used in the modal body? Define the number of CTAs allowed? Define the positions of the CTAs? Based on feedback from other designers and the design systems team, I ended up going with something a little more flexible.</p>
-        </div>
-        <img class="proj-img" src="img/modal-component/modal-component.jpg" alt="Completed modal component">
-        <div class="proj-text vds-modal">
-          <ol class="remove-padding">
-            <li><h3>Header</h3><p>Headers contain things like the title and close button.</p></li>
-            <li><h3>Body</h3><p>The body can contain anything like text or input boxes.</p></li>
-            <li><h3>Footer</h3><p>Footers contain CTAs. At least one CTA is required.</p></li>
-            <li><h3>Close</h3><p>Close buttons always appear in upper right of the modal.</p></li>
-            <li><h3>Blanket</h3><p>Blankets are a darkened layer beneath the modal to obscure the background and reduce distraction.</p></li>
-          </ol>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="grid-container">
-        <div class="proj-text">
-          <h2>Modals on Mobile</h2>
-          <p>Mobile brings a additional set of challenges including how to handle extra long modals. I settled on designing a modal that would expand beyond the bottom of the screen instead of having a fixed header and footer. This would help us avoid double scrollbars and encourage designers to stick to concise modals.</p>
-        </div>
-        <img class="proj-img" src="img/modal-component/mobile-modals.jpg" alt="Screenshots of modals on mobile web">
-      </div>
-    </section>
-    <section>
-      <div class="grid-container">
-        <div class="proj-text">
-            <h2>Modals Do's and Dont's</h2>
-        </div>
-        <div class="vds-do">
-          <img src="img/modal-component/do1.jpg" alt="Modal with single purpose">
-          <div class="vds-do-txt">
-            <h3>Do</h3>
-            <p>Have a single purpose modal</p>
+      <div class="scene_element scene_element--fadeinup scene_element--delayed">
+        <section>
+          <img src="img/cover-veritas-modal.svg" alt="Modal component">
+        </section>
+        <section>
+          <div class="grid-container">
+            <div class="proj-text">
+              <p class="remove-padding">I had the opportunity to research and design a modal component and add it to <a class="bdr-btm-1" href="https://www.udacity.com/">Udacity’s</a> design system, Veritas. I helped create the symbol component for the Veritas Sketch library and worked with a design systems engineer who helped code it.</p>
+            </div>
           </div>
-        </div>
-        <div class="vds-dont">
-          <img src="img/modal-component/dont1.jpg" alt="Modal with multiple purposes">
-          <div class="vds-dont-txt">
-            <h3>Don't</h3>
-            <p>Have multiple tasks in a modal that will distract users and cause them to navigate away without finishing the curent task</p>
+        </section>
+        <section>
+          <div class="grid-container">
+            <div class="proj-text">
+              <h2>Research</h2>
+              <p>Modals (or some people like to call them dialogues) are an amazing and powerful UI component in the right circumstances, but it’s important to understand when to use them.</p>
+              <p>I started by reading up on best practices to get a general sense of the do’s and dont’s of modals. There were plenty of articles to go through, notably one from the Nielson Normal Group on <a href="https://www.nngroup.com/articles/modal-nonmodal-dialog/">Modal & Non-modal Dialogues</a>.</p>
+              <p>Here’s what I distilled down: modals help bring undivided focus to an action or piece of content, and helps prevent losing context or place in the overall page by opening something on a layer above.</p>
+            </div>
+            <div class="vds-adv">
+              <h3 class="add-padding-24">Advantages</h3>
+              <ul>
+                <li>Helps bring undivided focus to an action or piece of content</li>
+                <li>Prevents losing context / place in the overall page</li>
+              </ul>
+            </div>
+            <div class="vds-disadv">
+              <h3 class="add-padding-24">Disadvantages</h3>
+              <ul>
+                <li>Interrupts user flow</li>
+                <li>Cause users to forget what they were doing</li>
+                <li>Cause users to create and address an extra goal</li>
+                <li>Block content in background (consider “working memory”)</li>
+                <li>It’s expected all work is lost when closing modal</li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="proj-text">
-          <img src="img/modal-component/dont2.jpg" alt="Multiple modals on top of each other">
-          <div class="vds-dont-txt">
-            <h3>Don't</h3>
-            <p>Have multiple modals open on top of one another</p>
+        </section>
+        <section>
+          <div class="grid-container">
+            <div class="proj-text">
+              <h2>Modal Audit</h2>
+              <p>Before even starting the design, I wanted an audit of all the modals we were using in our current products. Luckily, the design systems team at Udacity had already done an audit of many of the different components, including modals.</p>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="grid-container">
-        <div class="proj-text">
-          <h2>Modals Alternatives</h2>
-          <p>Because there were so few use cases where it made sense to use modals, I had also documented some modal alternatives.</p>
-        </div>
-        <img class="vds-alt-img" src="img/modal-component/alt1.svg" alt="Nonmodal dialgoues">
-        <div class="vds-alt-txt">
-          <h3>Nonmodal Dialogues</h3>
-          <p>Only partially covers screen, less intrusive</p>
-        </div>
-        <img class="vds-alt-img" src="img/modal-component/alt2.svg" alt="Nonmodal dialgoues">
-        <div class="vds-alt-txt">
-          <h3>Inline Information</h3>
-          <p>Information can be hidden and revealed in context</p>
-        </div>
-        <img class="vds-alt-img" src="img/modal-component/alt3.svg" alt="Nonmodal dialgoues">
-        <div class="vds-alt-txt">
-          <h3>Undo Button</h3>
-          <p>Instead of a confirmation modal, show an undo button</p>
-        </div>
-        <img class="vds-alt-img" src="img/modal-component/alt4.svg" alt="Nonmodal dialgoues">
-        <div class="vds-alt-txt">
-          <h3>New page</h3>
-          <p>Open the content in a new tab to avoid losing your the place in the original page</p>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="grid-container">
-        <div class="proj-text">
-          <h2>Reflection</h2>
-          <p>Designing a component was an entirely eye-opening process. It gave me an opportunity to flex my systems thinking muscles by making me think deeply about a single component and it’s structure and use cases. Even though I had used the modal pattern for a long time in my career, there were new considerations that I learned through my research. I would be happy to do this again for other components.</p>
-        </div>
-      </div>
-    </section>
-    <section class="next-proj-banner">
-      <a href="project-udacity-marketing.html">
-        <div class="um">
-          <div class="darken">
-            <div class="grid-container">
-              <div class="next-proj-txt">
-                <p class="remove-padding">Next Project</p>
-                <h2>Udacity Marketing</h2>
+          <img src="img/modal-component/audit.jpg" alt="Screenshots of different modals from Udacity">
+          <div class="grid-container">
+            <div class="proj-text">
+              <p>Crazy! There was such a dizzying array of modal layouts and it was really interesting to see the variety. While I needed to be considerate of what we were already using, I wanted to keep in mind that we can actually use this modal component to encourage new, better usage.</p>
+              <p class="remove-padding">In addition to our personal audit, I had also taken a look at the modal component from other design systems such as Atlassian, Carbon, and Quickbooks.</p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="grid-container">
+            <div class="proj-text">
+              <h2>Defining the Component</h2>
+              <p>I had bounced back and forth between having more strict limitations on the modal versus having looser restrictions. Should title’s be required? Left align, center align, or both? Should we limit what components could be used in the modal body? Define the number of CTAs allowed? Define the positions of the CTAs? Based on feedback from other designers and the design systems team, I ended up going with something a little more flexible.</p>
+            </div>
+            <img class="proj-img" src="img/modal-component/modal-component.jpg" alt="Completed modal component">
+            <div class="proj-text vds-modal">
+              <ol class="remove-padding">
+                <li><h3>Header</h3><p>Headers contain things like the title and close button.</p></li>
+                <li><h3>Body</h3><p>The body can contain anything like text or input boxes.</p></li>
+                <li><h3>Footer</h3><p>Footers contain CTAs. At least one CTA is required.</p></li>
+                <li><h3>Close</h3><p>Close buttons always appear in upper right of the modal.</p></li>
+                <li><h3>Blanket</h3><p>Blankets are a darkened layer beneath the modal to obscure the background and reduce distraction.</p></li>
+              </ol>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="grid-container">
+            <div class="proj-text">
+              <h2>Modals on Mobile</h2>
+              <p>Mobile brings a additional set of challenges including how to handle extra long modals. I settled on designing a modal that would expand beyond the bottom of the screen instead of having a fixed header and footer. This would help us avoid double scrollbars and encourage designers to stick to concise modals.</p>
+            </div>
+            <img class="proj-img" src="img/modal-component/mobile-modals.jpg" alt="Screenshots of modals on mobile web">
+          </div>
+        </section>
+        <section>
+          <div class="grid-container">
+            <div class="proj-text">
+                <h2>Modals Do's and Dont's</h2>
+            </div>
+            <div class="vds-do">
+              <img src="img/modal-component/do1.jpg" alt="Modal with single purpose">
+              <div class="vds-do-txt">
+                <h3>Do</h3>
+                <p>Have a single purpose modal</p>
               </div>
             </div>
-        </div>
-      </a>
-    </section>
+            <div class="vds-dont">
+              <img src="img/modal-component/dont1.jpg" alt="Modal with multiple purposes">
+              <div class="vds-dont-txt">
+                <h3>Don't</h3>
+                <p>Have multiple tasks in a modal that will distract users and cause them to navigate away without finishing the curent task</p>
+              </div>
+            </div>
+            <div class="proj-text">
+              <img src="img/modal-component/dont2.jpg" alt="Multiple modals on top of each other">
+              <div class="vds-dont-txt">
+                <h3>Don't</h3>
+                <p>Have multiple modals open on top of one another</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="grid-container">
+            <div class="proj-text">
+              <h2>Modals Alternatives</h2>
+              <p>Because there were so few use cases where it made sense to use modals, I had also documented some modal alternatives.</p>
+            </div>
+            <img class="vds-alt-img" src="img/modal-component/alt1.svg" alt="Nonmodal dialgoues">
+            <div class="vds-alt-txt">
+              <h3>Nonmodal Dialogues</h3>
+              <p>Only partially covers screen, less intrusive</p>
+            </div>
+            <img class="vds-alt-img" src="img/modal-component/alt2.svg" alt="Nonmodal dialgoues">
+            <div class="vds-alt-txt">
+              <h3>Inline Information</h3>
+              <p>Information can be hidden and revealed in context</p>
+            </div>
+            <img class="vds-alt-img" src="img/modal-component/alt3.svg" alt="Nonmodal dialgoues">
+            <div class="vds-alt-txt">
+              <h3>Undo Button</h3>
+              <p>Instead of a confirmation modal, show an undo button</p>
+            </div>
+            <img class="vds-alt-img" src="img/modal-component/alt4.svg" alt="Nonmodal dialgoues">
+            <div class="vds-alt-txt">
+              <h3>New page</h3>
+              <p>Open the content in a new tab to avoid losing your the place in the original page</p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="grid-container">
+            <div class="proj-text">
+              <h2>Reflection</h2>
+              <p>Designing a component was an entirely eye-opening process. It gave me an opportunity to flex my systems thinking muscles by making me think deeply about a single component and it’s structure and use cases. Even though I had used the modal pattern for a long time in my career, there were new considerations that I learned through my research. I would be happy to do this again for other components.</p>
+            </div>
+          </div>
+        </section>
+        <section class="next-proj-banner">
+          <a href="project-udacity-marketing.html">
+            <div class="um">
+              <div class="darken">
+                <div class="grid-container">
+                  <div class="next-proj-txt">
+                    <p class="remove-padding">Next Project</p>
+                    <h2>Udacity Marketing</h2>
+                  </div>
+                </div>
+            </div>
+          </a>
+        </section>
+      </div>
+    </div>
   </body>
 </html>

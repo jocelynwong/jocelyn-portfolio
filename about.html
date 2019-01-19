@@ -10,10 +10,13 @@
 
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.smoothState.js"></script>
     <script src="js/scripts.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Playfair+Display:900" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/keyframes.css">
+    <link rel="stylesheet" type="text/css" href="css/transitions.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=zXbG8ngvPG">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?v=zXbG8ngvPG">
@@ -21,52 +24,56 @@
     <link rel="manifest" href="/site.webmanifest?v=zXbG8ngvPG">
     <link rel="mask-icon" href="/safari-pinned-tab.svg?v=zXbG8ngvPG" color="#3b5ae9">
     <link rel="shortcut icon" href="favicon.ico?v=zXbG8ngvPG">
-    <meta name="msapplication-TileColor" content="#3b5ae9">
-    <meta name="theme-color" content="#f0f7ff">
+    <meta name="msapplication-TileColor" content="#3b5ae9" />
+    <meta name="theme-color" content="#f0f7ff" />
   </head>
   <body>
-    <div class="grid-container">
-      <nav>
-        <span class="hamburger"></span>
-        <ul class="menu-wrap">
-          <li><a href="index.html"><img src="img/logo.svg" alt="Jocelyn Wong's logo"></a></li>
-          <li><a class="nav-btn" href="index.html">Portfolio</a></li>
-          <li><a class="nav-btn" href="about.html">About</a></li>
-          <li class="push-right">Say hello at <a class="bdr-btm-1" href="mailto:jocelyn.sl.wong@gmail.com">jocelyn.sl.wong&#64;gmail.com</a></li>
-          <li><a class="nav-btn" href="https://dribbble.com/jocelynswong"><img src="img/icon-dribbble.svg" alt="Dribbble icon"></a></li>
-          <li><a class="nav-btn" href="https://www.linkedin.com/in/jocelyn-wong-4a66ab28/"><img src="img/icon-linkedin.svg" alt="LinkedIn icon"></a></li>
-        </ul>
-      </nav>
-    </div>
-    <section>
+    <div class="m-scene" id="main">
       <div class="grid-container">
-        <div class="about-img" alt="Photo of Jocelyn">
-          <img src="img/about.jpg">
-        </div>
+        <nav>
+          <span class="hamburger"></span>
+          <ul class="menu-wrap">
+            <li><a href="index.html"><img src="img/logo.svg" alt="Jocelyn Wong's logo"></a></li>
+            <li><a class="nav-btn" href="index.html">Portfolio</a></li>
+            <li><a class="nav-btn" href="about.html">About</a></li>
+            <li class="push-right">Say hello at <a class="bdr-btm-1" href="mailto:jocelyn.sl.wong@gmail.com">jocelyn.sl.wong&#64;gmail.com</a></li>
+            <li><a class="nav-btn" href="https://dribbble.com/jocelynswong" target="_blank"><img src="img/icon-dribbble.svg" alt="Dribbble icon"></a></li>
+            <li><a class="nav-btn" href="https://www.linkedin.com/in/jocelyn-wong-4a66ab28/" target="_blank"><img src="img/icon-linkedin.svg" alt="LinkedIn icon"></a></li>
+          </ul>
+        </nav>
       </div>
-    </section>
-    <section>
+      <div class="scene_element scene_element--fadeinup scene_element--delayed">
+        <section>
+          <div class="grid-container">
+            <div class="about-img" alt="Photo of Jocelyn">
+              <img src="img/about.jpg">
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="grid-container">
+            <div class="about-text">
+              <p>Hello there! I’m a Bay Area resident currently working in Mountain View. I’ve worked mostly as a product designer for both web and mobile, but also enjoy the variety of working on visual, motion, illustration, or branding work. I’ve had the opportunity to work with big names like Udacity, Highlights, Samsung, Sylvan Learning, and Cricket Media, as well as other smaller firms and non-profits.</p>
+            </div>
+            <div class="work-history">
+              <h3>Product Designer &#64; Udacity</h3>
+              <p>August 2016 — Present</p>
+              <h3>UI/UX Designer &#64; Hackster.io (Contract)</h3>
+              <p>June 2016 — August 2016</p>
+              <h3>Designer &#64; Fingerprint Play</h3>
+              <p>September 2012 — May 2016</p>
+              <h3>Graphic Designer &#64; Associated Students Inc.</h3>
+              <p>September 2011 — June 2012</p>
+              <a class="bdr-btm-1" href="img/jocelynw_resume.pdf">Download Full Résumé</a>
+            </div>
+          </div>
+        </section>
+      </div>
       <div class="grid-container">
-        <div class="about-text">
-          <p>Hello there! I’m a Bay Area resident currently working in Mountain View. I’ve worked mostly as a product designer for both web and mobile, but also enjoy the variety of working on visual, motion, illustration, or branding work. I’ve had the opportunity to work with big names like Udacity, Highlights, Samsung, Sylvan Learning, and Cricket Media, as well as other smaller firms and non-profits.</p>
-        </div>
-        <div class="work-history">
-          <h3>Product Designer &#64; Udacity</h3>
-          <p>August 2016 — Present</p>
-          <h3>UI/UX Designer &#64; Hackster.io (Contract)</h3>
-          <p>June 2016 — August 2016</p>
-          <h3>Designer &#64; Fingerprint Play</h3>
-          <p>September 2012 — May 2016</p>
-          <h3>Graphic Designer &#64; Associated Students Inc.</h3>
-          <p>September 2011 — June 2012</p>
-          <a class="bdr-btm-1" href="img/jocelynw_resume.pdf">Download Full Résumé</a>
-        </div>
+        <footer>
+           <p>&copy; 2019 Jocelyn Wong</p>
+        </footer>
       </div>
-    </section>
-    <div class="grid-container">
-      <footer>
-         <p>&copy; 2019 Jocelyn Wong</p>
-      </footer>
     </div>
   </body>
 </html>
