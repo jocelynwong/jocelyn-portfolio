@@ -12,7 +12,7 @@ img {
 li {
 	line-height: 2;
 	padding-bottom: 16px;
-	margin-left: 24px;
+	/* margin-left: 24px; */
 }
 
 .remove-padding {
@@ -115,7 +115,7 @@ nav .hamburger {
 	transition: .5s ease-in-out;
 }
 
-nav .hamburger:after, 
+nav .hamburger:after,
 nav .hamburger:before {
 	transition: .5s ease-in-out;
 	content: "";
@@ -155,7 +155,7 @@ nav .hamburger.clicked:before {
 nav ul {
 	display: flex;
 	flex-direction: column;
-	justify-content: center; 
+	justify-content: center;
 	list-style: none;
 }
 
@@ -273,19 +273,19 @@ section img, video {
   background: url(../img/cover-highlights-every-day.svg) no-repeat center center;
 }
 
-.sh, 
+.sh,
 .know,
-.vds, 
-.um, 
+.vds,
+.um,
 .hed {
 	background-size: cover;
 	transition: all .4s;
 }
 
-.sh:hover, 
+.sh:hover,
 .know:hover,
-.vds:hover, 
-.um:hover, 
+.vds:hover,
+.um:hover,
 .hed:hover {
 	transform: scale(1.1);
 }
@@ -528,7 +528,7 @@ section img, video {
 		left: 0;
 		z-index: 0;
 	}
-	
+
 	/* Navigation */
 	nav ul {
 		display: flex;
