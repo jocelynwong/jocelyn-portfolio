@@ -12,7 +12,7 @@ img {
 li {
 	line-height: 2;
 	padding-bottom: 16px;
-	/* margin-left: 24px; */
+	margin-left: 24px;
 }
 
 .remove-padding {
@@ -104,9 +104,9 @@ nav {
 
 nav .hamburger {
 	position: absolute;
-	top: 48px;
-	right: 24px;
-	width: 30px;
+	top: 40px;
+	right: 16px;
+	width: 24px;
 	height: 2px;
 	background: #4a4a4a;
 	display: block;
@@ -128,11 +128,11 @@ nav .hamburger:before {
 }
 
 nav .hamburger:before {
-	top: -10px;
+	top: -8px;
 }
 
 nav .hamburger:after {
-	bottom: -10px;
+	bottom: -8px;
 }
 
 nav .hamburger.clicked {
@@ -160,7 +160,7 @@ nav ul {
 }
 
 nav ul.menu-wrap {
-    background-color: #f0f7ff;
+  background-color: #f0f7ff;
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -171,8 +171,48 @@ nav ul.menu-wrap {
 	transition: .25s;
 	z-index: 10;
 }
+
 nav ul.menu-wrap.menu-show {
 	margin-right: 0;
+}
+
+nav ul li {
+	line-height: 1;
+	margin-bottom: 16px;
+}
+
+.social {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: left;
+}
+
+.social-labels {
+	padding-left: 8px;
+}
+
+.cs-nav {
+	display: block;
+	padding: 40px 0 40px 0;
+	grid-column: span 12;
+}
+
+.cs-nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	align-items: center;
+	justify-content: left;
+}
+
+.cs-nav ul li {
+	display: inline-block;
+	padding-bottom: 0;
+	line-height: 1;
+	margin-left: 0;
+	padding: 0 16px 0 0;
+	vertical-align: middle;
 }
 
 footer {
@@ -245,9 +285,9 @@ section img, video {
 	grid-column: span 12;
 }
 
-/* .darken {
+.darken {
   background-color: rgba(0, 0, 0, 0.3);
-} */
+}
 
 .zoom-contain {
   overflow: hidden;
@@ -389,6 +429,11 @@ section img, video {
 	grid-column: span 12;
 }
 
+/*Other*/
+.hide {
+	display: none;
+}
+
 @media only screen and (min-width: 1024px) {
 	/*Typography*/
 	h1 {
@@ -511,6 +556,8 @@ section img, video {
 		grid-column: 9 / span 3;
 	}
 
+	/* Navigation */
+
 	nav {
 		display: block;
 		padding: 40px 0 40px 0;
@@ -529,7 +576,6 @@ section img, video {
 		z-index: 0;
 	}
 
-	/* Navigation */
 	nav ul {
 		display: flex;
 		flex-direction: row;
@@ -555,6 +601,10 @@ section img, video {
 		margin-left: auto;
 	}
 
+	.cs-nav ul li {
+		padding: 0 8px 0 0;
+	}
+
 	.nav-btn {
 		padding: 12px;
 		border-radius: 4px;
@@ -566,6 +616,15 @@ section img, video {
 
 	.nav-btn:hover {
 		background-color: #e1e6ff;
+	}
+
+	.social-labels {
+		display: none;
+	}
+
+	/*Other*/
+	.hide {
+		display: inline;
 	}
 }
 
