@@ -31,20 +31,20 @@ li {
 h1 {
 	font-family: 'Playfair Display', serif;
 	font-size: 2.5rem;
-	line-height: 1.5;
+	line-height: 2;
 }
 
 h2 {
 	font-family: 'Playfair Display', serif;
-  	font-size: 1.5rem;
-	line-height: 1.5;
+  font-size: 2rem;
+	line-height: 2;
 }
 
 h3 {
 	font-family: 'Montserrat', Helvetica, sans-serif;
 	font-size: 1.125rem;
 	font-weight: 700;
-	line-height: 1.5;
+	line-height: 2;
 }
 
 p {
@@ -78,12 +78,19 @@ a {
 
 .bdr-btm-1 {
 	border-bottom: 1px solid #3b5ae9;
-  padding: 4px 0;
+  /* padding: 4px 0; */
+	line-height: 2;
 }
 
 .bdr-btm-1:hover {
 	box-shadow: inset 220px 0 0 0 #e1e6ff;
 	color: #4a4a4a;
+}
+
+p .bdr-btm-1 {
+	border-bottom: 1px solid #3b5ae9;
+  /* padding: 4px 0; */
+	/* line-height: 2; */
 }
 
 .proj-text .bdr-btm-1  {
@@ -443,13 +450,13 @@ section img, video {
 
 	h2 {
 		font-size: 2rem;
-		line-height: 2;
+		line-height: 2.5;
 	}
 
 	h3 {
 		font-size: 1.125rem;
 		font-weight: 700;
-		line-height: 2;
+		line-height: 2.5;
 	}
 
 	/*Grid*/
