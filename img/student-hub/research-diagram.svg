@@ -1,1 +1,76 @@
-<svg height="596" viewBox="0 0 1140 596" width="1140" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="m0 0h1140v596h-1140z"/><circle id="b" cx="60" cy="60" r="60"/><mask id="c" fill="#fff"><use fill="#fff" fill-rule="evenodd" xlink:href="#a"/></mask><mask id="d" fill="#fff"><use fill="#fff" fill-rule="evenodd" xlink:href="#b"/></mask></defs><g fill="none" fill-rule="evenodd"><use fill="#f0f7ff" opacity=".7" xlink:href="#a"/><g stroke="#c0cafb" stroke-width="3"><path d="m570 238v-93" mask="url(#c)"/><path d="m570 450v-93" mask="url(#c)"/><path d="m417 360 105-43" mask="url(#c)"/><path d="m417 278 105-43" mask="url(#c)" transform="matrix(1 0 0 -1 0 513)"/><path d="m617 360 105-43" mask="url(#c)" transform="matrix(-1 0 0 1 1339 0)"/><path d="m617 278 105-43" mask="url(#c)" transform="matrix(-1 0 0 -1 1339 513)"/></g><g mask="url(#c)"><g fill-rule="evenodd" transform="translate(510 238)"><use fill="#90a0f1" xlink:href="#b"/><g fill="#e1e6ff"><rect height="44" mask="url(#d)" rx="22" width="44" x="38" y="30"/><rect height="84" mask="url(#d)" rx="42" width="84" x="18" y="79"/></g></g></g><g mask="url(#c)"><g transform="translate(500 66)"><path d="m0 0h140v80h-140z" fill="#e1e6ff" fill-rule="evenodd"/><text fill="none" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold"><tspan fill="#4a4a4a" x="26.884" y="45">Great Content</tspan></text></g></g><g mask="url(#c)"><g transform="translate(500 450)"><path d="m0 0h140v80h-140z" fill="#e1e6ff" fill-rule="evenodd"/><text fill="none" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold"><tspan fill="#4a4a4a" x="36.88" y="45">Motivation</tspan></text></g></g><g mask="url(#c)"><g transform="translate(280 322)"><path d="m0 0h140v80h-140z" fill="#e1e6ff" fill-rule="evenodd"/><text fill="none" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold"><tspan fill="#4a4a4a" x="33.61" y="45">Community</tspan></text></g></g><g mask="url(#c)"><g transform="translate(280 194)"><path d="m0 0h140v80h-140z" fill="#e1e6ff" fill-rule="evenodd"/><text fill="none" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold"><tspan fill="#4a4a4a" x="35.056" y="45">Confidence</tspan></text></g></g><g mask="url(#c)"><g transform="translate(720 194)"><path d="m0 0h140v80h-140z" fill="#e1e6ff" fill-rule="evenodd"/><text fill="none" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold"><tspan fill="#4a4a4a" x="24.724" y="45">Technical Help</tspan></text></g></g><g mask="url(#c)"><g transform="translate(720 322)"><path d="m0 0h140v80h-140z" fill="#e1e6ff" fill-rule="evenodd"/><text fill="none" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold"><tspan fill="#4a4a4a" x="24.73" y="45">Accountability</tspan></text></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1140" height="596" viewBox="0 0 1140 596">
+  <defs>
+    <rect id="research-diagram-a" width="1140" height="596"/>
+    <circle id="research-diagram-c" cx="60" cy="60" r="60"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="research-diagram-b" fill="#fff">
+      <use xlink:href="#research-diagram-a"/>
+    </mask>
+    <use fill="#F0F7FF" opacity=".7" xlink:href="#research-diagram-a"/>
+    <polygon fill="#C0CAFB" fill-rule="nonzero" points="571.5 238 568.5 238 568.5 145 571.5 145" mask="url(#research-diagram-b)"/>
+    <polygon fill="#C0CAFB" fill-rule="nonzero" points="571.5 450 568.5 450 568.5 357 571.5 357" mask="url(#research-diagram-b)"/>
+    <polygon fill="#C0CAFB" fill-rule="nonzero" points="417.568 361.388 416.432 358.612 521.432 315.612 522.568 318.388" mask="url(#research-diagram-b)"/>
+    <polygon fill="#C0CAFB" fill-rule="nonzero" points="417.568 279.388 416.432 276.612 521.432 233.612 522.568 236.388" mask="url(#research-diagram-b)" transform="matrix(1 0 0 -1 0 513)"/>
+    <polygon fill="#C0CAFB" fill-rule="nonzero" points="617.568 361.388 616.432 358.612 721.432 315.612 722.568 318.388" mask="url(#research-diagram-b)" transform="matrix(-1 0 0 1 1339 0)"/>
+    <polygon fill="#C0CAFB" fill-rule="nonzero" points="617.568 279.388 616.432 276.612 721.432 233.612 722.568 236.388" mask="url(#research-diagram-b)" transform="rotate(180 669.5 256.5)"/>
+    <g mask="url(#research-diagram-b)">
+      <g transform="translate(510 238)">
+        <mask id="research-diagram-d" fill="#fff">
+          <use xlink:href="#research-diagram-c"/>
+        </mask>
+        <use fill="#90A0F1" xlink:href="#research-diagram-c"/>
+        <rect width="44" height="44" x="38" y="30" fill="#E1E6FF" mask="url(#research-diagram-d)" rx="22"/>
+        <rect width="84" height="84" x="18" y="79" fill="#E1E6FF" mask="url(#research-diagram-d)" rx="42"/>
+      </g>
+    </g>
+    <g mask="url(#research-diagram-b)">
+      <g transform="translate(500 66)">
+        <rect width="140" height="80" fill="#E1E6FF"/>
+        <text font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold">
+          <tspan x="26.884" y="45" fill="#4A4A4A">Great Content</tspan>
+        </text>
+      </g>
+    </g>
+    <g mask="url(#research-diagram-b)">
+      <g transform="translate(500 450)">
+        <rect width="140" height="80" fill="#E1E6FF"/>
+        <text font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold">
+          <tspan x="36.88" y="45" fill="#4A4A4A">Motivation</tspan>
+        </text>
+      </g>
+    </g>
+    <g mask="url(#research-diagram-b)">
+      <g transform="translate(280 322)">
+        <rect width="140" height="80" fill="#E1E6FF"/>
+        <text font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold">
+          <tspan x="33.61" y="45" fill="#4A4A4A">Community</tspan>
+        </text>
+      </g>
+    </g>
+    <g mask="url(#research-diagram-b)">
+      <g transform="translate(280 194)">
+        <rect width="140" height="80" fill="#E1E6FF"/>
+        <text font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold">
+          <tspan x="35.056" y="45" fill="#4A4A4A">Confidence</tspan>
+        </text>
+      </g>
+    </g>
+    <g mask="url(#research-diagram-b)">
+      <g transform="translate(720 194)">
+        <rect width="140" height="80" fill="#E1E6FF"/>
+        <text font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold">
+          <tspan x="24.724" y="45" fill="#4A4A4A">Technical Help</tspan>
+        </text>
+      </g>
+    </g>
+    <g mask="url(#research-diagram-b)">
+      <g transform="translate(720 322)">
+        <rect width="140" height="80" fill="#E1E6FF"/>
+        <text font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold">
+          <tspan x="24.73" y="45" fill="#4A4A4A">Accountability</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
