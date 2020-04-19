@@ -12,7 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/jquery.smoothState.js"></script>
     <script src="js/scripts.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Playfair+Display:900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600|Playfair+Display:800" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/keyframes.css" />
@@ -59,11 +59,11 @@
             <div class="proj-text">
               <h2>Research</h2>
               <p>Modals (or some people like to call them dialogues) are an amazing and powerful UI component in the right circumstances, but it’s important to understand when to use them.</p>
-              <p>I started by reading up on best practices to get a general sense of the do’s and dont’s of modals. There were plenty of articles to go through, notably one from the Nielson Normal Group on <a class="bdr-btm-1" href="https://www.nngroup.com/articles/modal-nonmodal-dialog/">Modal & Non-modal Dialogues</a>.</p>
-              <p>Here’s what I distilled down: modals help bring undivided focus to an action or piece of content, and helps prevent losing context or place in the overall page by opening something on a layer above.</p>
+              <p>I started by reading up on best practices to get a general sense of the do’s and dont’s of modals. There were plenty of articles to go through, notably one from the Nielson Norman Group on <a class="bdr-btm-1" href="https://www.nngroup.com/articles/modal-nonmodal-dialog/">Modal & Non-modal Dialogues</a>.</p>
+              <p class="padding-40">Here’s what I distilled down: modals help bring undivided focus to an action or piece of content, and helps prevent losing context or place in the overall page by opening something on a layer above.</p>
             </div>
             <div class="vds-adv">
-              <h3 class="add-padding-24">Advantages</h3>
+              <h3 class="padding-24">Advantages</h3>
               <ul>
                 <li>Helps bring undivided focus to an action or piece of content</li>
                 <li>Prevents losing context / place in the overall page</li>
@@ -85,10 +85,10 @@
           <div class="grid-container">
             <div class="proj-text">
               <h2>Modal Audit</h2>
-              <p>Before even starting the design, I wanted an audit of all the modals we were using in our current products. Luckily, the design systems team at Udacity had already done an audit of many of the different components, including modals.</p>
+              <p class="padding-40">Before even starting the design, I wanted an audit of all the modals we were using in our current products. Luckily, the design systems team at Udacity had already done an audit of many of the different components, including modals.</p>
             </div>
           </div>
-          <img src="img/modal-component/audit.jpg" alt="Screenshots of different modals from Udacity">
+          <img  class="padding-40" src="img/modal-component/audit.jpg" alt="Screenshots of different modals from Udacity">
           <div class="grid-container">
             <div class="proj-text">
               <p>Crazy! There was such a dizzying array of modal layouts and it was really interesting to see the variety. While I needed to be considerate of what we were already using, I wanted to keep in mind that we can actually use this modal component to encourage new, better usage.</p>
@@ -100,9 +100,9 @@
           <div class="grid-container">
             <div class="proj-text">
               <h2>Defining the Component</h2>
-              <p>I had bounced back and forth between having more strict limitations on the modal versus having looser restrictions. Should title’s be required? Left align, center align, or both? Should we limit what components could be used in the modal body? Define the number of CTAs allowed? Define the positions of the CTAs? Based on feedback from other designers and the design systems team, I ended up going with something a little more flexible.</p>
+              <p class="padding-40">I had bounced back and forth between having more strict limitations on the modal versus having looser restrictions. Should title’s be required? Left align, center align, or both? Should we limit what components could be used in the modal body? Define the number of CTAs allowed? Define the positions of the CTAs? Based on feedback from other designers and the design systems team, I ended up going with something a little more flexible.</p>
             </div>
-            <img class="proj-img" src="img/modal-component/modal-component.jpg" alt="Completed modal component">
+            <img class="proj-img padding-40" src="img/modal-component/modal-component.jpg" alt="Completed modal component">
             <div class="proj-text vds-modal">
               <ol class="remove-padding">
                 <li><h3>Header</h3><p>Headers contain things like the title and close button.</p></li>
@@ -118,7 +118,7 @@
           <div class="grid-container">
             <div class="proj-text">
               <h2>Modals on Mobile</h2>
-              <p>Mobile brings a additional set of challenges including how to handle extra long modals. I settled on designing a modal that would expand beyond the bottom of the screen instead of having a fixed header and footer. This would help us avoid double scrollbars and encourage designers to stick to concise modals.</p>
+              <p class="padding-40">Mobile brings a additional set of challenges including how to handle extra long modals. I settled on designing a modal that would expand beyond the bottom of the screen instead of having a fixed header and footer. This would help us avoid double scrollbars and encourage designers to stick to concise modals.</p>
             </div>
             <img class="proj-img" src="img/modal-component/mobile-modals.jpg" alt="Screenshots of modals on mobile web">
           </div>
@@ -126,7 +126,7 @@
         <section>
           <div class="grid-container">
             <div class="proj-text">
-                <h2>Modals Do's and Dont's</h2>
+                <h2 class="padding-40">Modals Do's and Dont's</h2>
             </div>
             <div class="vds-do">
               <img src="img/modal-component/do1.jpg" alt="Modal with single purpose">
@@ -183,7 +183,7 @@
           <div class="grid-container">
             <div class="proj-text">
               <h2>Reflection</h2>
-              <p>Designing a component was an entirely eye-opening process. It gave me an opportunity to flex my systems thinking muscles by making me think deeply about a single component and it’s structure and use cases. Even though I had used the modal pattern for a long time in my career, there were new considerations that I learned through my research. I would be happy to do this again for other components. This modal component can be seen at the <a class="bdr-btm-1" href="https://veritas.udacity.design/#!/Modal">Veritas documentation site.</a></p>
+              <p class="padding-40">Designing a component was an entirely eye-opening process. It gave me an opportunity to flex my systems thinking muscles by making me think deeply about a single component and it’s structure and use cases. Even though I had used the modal pattern for a long time in my career, there were new considerations that I learned through my research. I would be happy to do this again for other components. This modal component can be seen at the <a class="bdr-btm-1" href="https://veritas.udacity.design/#/Components/Modal">Veritas documentation site.</a></p>
             </div>
           </div>
         </section>
