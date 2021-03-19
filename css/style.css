@@ -9,54 +9,78 @@
 		height: auto;
 	}
 
+	ul {
+		padding-bottom: 24px;
+	}
+
 	li {
 		line-height: 2;
 		padding-bottom: 16px;
 		margin-left: 24px;
 	}
 
-	.remove-padding {
+	li:last-child {
 		padding-bottom: 0;
 	}
 
-	.remove-padding p {
+	.padding-0 {
 		padding-bottom: 0;
+	}
+
+	.padding-0 p {
+		padding-bottom: 0;
+	}
+
+	.padding-16 {
+		padding-bottom: 16px;
 	}
 
 	.padding-24 {
 		padding-bottom: 24px;
 	}
 
+	.padding-32 {
+		padding-bottom: 32px;
+	}
+
 	.padding-40 {
 		padding-bottom: 40px;
 	}
 
+	.subtle-text {
+		color: #6D7578;
+	}
+
 	/*Typography*/
 	h1 {
-		font-family: 'Playfair Display', serif;
-		font-size: 2.5rem;
+		font-family: 'Montserrat', Helvetica, sans-serif;
+		font-size: 2.25rem;
+		font-weight: 700;
 		line-height: 1.4;
+		letter-spacing: -0.0125em;
 		padding-bottom: 8px;
 	}
 
 	h2 {
-		font-family: 'Playfair Display', serif;
-	  font-size: 2rem;
+		font-family: 'Montserrat', Helvetica, sans-serif;
+	  font-size: 1.75rem;
+		font-weight: 700;
 		line-height: 1.4;
+		letter-spacing: -0.006em;
 		padding-bottom: 16px;
 	}
 
 	h3 {
 		font-family: 'Montserrat', Helvetica, sans-serif;
 		font-size: 1.125rem;
-		font-weight: 600;
+		font-weight: 700;
 		padding-bottom: 8px;
-		line-height: 2;
+		line-height: 1.4;
+		letter-spacing: -0.006em;
 	}
 
 	p {
 		font-size: 1rem;
-		letter-spacing: 0.125px;
 		padding-bottom: 24px;
 		line-height: 2;
 	}
@@ -67,7 +91,7 @@
 		grid-template-columns: repeat(12, 1fr);
 		grid-column-gap: 24px;
 		max-width: 1140px;
-		margin: 0 16px 0 16px;
+		margin: 0 24px 0 24px;
 	}
 
 	/*Buttons and Links*/
@@ -87,7 +111,7 @@
 	.bdr-btm-1 {
 		border-bottom: 1px solid #3b5ae9;
 	  /* padding: 4px 0; */
-		line-height: 2;
+		line-height: 1.5;
 	}
 
 	.bdr-btm-1:hover {
@@ -251,7 +275,7 @@
 	}
 
 	.project h2{
-		padding: 8px 0 8px 0;
+		padding: 0;
 	}
 
 	.project p {
@@ -461,13 +485,12 @@
 		/*Typography*/
 		h1 {
 			font-size: 3rem;
-			line-height: 2;
+			line-height: 1.5;
 			padding-bottom: 0px;
 		}
 
 		h2 {
 			font-size: 2rem;
-			line-height: 2;
 			padding-bottom: 8px;
 		}
 
@@ -478,7 +501,7 @@
 
 		/*Grid*/
 		.grid-container {
-			margin: 0 24px 0 24px;
+			margin: 0 40px 0 40px;
 		}
 
 		/*Homepage*/
@@ -498,10 +521,11 @@
 		}
 
 		.project h2{
-			padding: 0 0 8px 0;
+			padding: 0;
 		}
 
 		.project p {
+			color: #6D7578;
 			padding-bottom: 24px;
 		}
 
@@ -587,6 +611,10 @@
 
 		.work-history {
 			grid-column: 9 / span 3;
+		}
+
+		.work-history p {
+			color: #6D7578;
 		}
 
 		/* Navigation */
